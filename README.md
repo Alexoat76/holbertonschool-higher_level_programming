@@ -68,7 +68,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 | Project | Description |
 | :--- | :--- |
-| [0x00. Python - Hello, World](./0x00-hello_world) | Introduction  |
+| [0x00 Python - Hello, World](./0x00-python-hello_world) | Introduction  |
 
 
 	
