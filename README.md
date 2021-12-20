@@ -68,7 +68,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 | Project | Description |
 | :--- | :--- |
-| [0x00. Python - Hello, World](./0x00-hello_world) | Introduction into the 4 steps of `GCC` compilation |
+| [0x00. Python - Hello, World](./0x00-hello_world) | Introduction  |
 
 
 	
