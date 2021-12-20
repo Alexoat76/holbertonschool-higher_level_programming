@@ -6,7 +6,7 @@
 Thank you for visiting this repository which contain my programming projects written in C and Python3 programming language. for the
 **High Level Programming** curriculum at Holberton School.
 
-![C](https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-1024x530.png)
+![Cpython](https://media.geeksforgeeks.org/wp-content/uploads/20200820101741/Cythonimage-660x294.png)
 	
 # Getting Started :running:	
 <div style="text-align: justify">
