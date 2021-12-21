@@ -1,27 +1,19 @@
-# High Level Programming
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
+
+# 0x00. Python - Hello, World
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain my programming projects written in C and Python3 programming language. for the
-**High Level Programming** curriculum at Holberton School.
-
-![Prog](http://content.timesjobs.com/img/75447920/Master.jpg)
+In this project, you should to learn and practice the basic concepts of python language.
+Don't forget to fully meet the following development requirements.
 	
 # Getting Started :running:	
 <div style="text-align: justify">
 	
 ## Table of Contents :clipboard:
-* [About](#about)
+
 * [Requirements](#requirements)
 * [Projects](#projects)
 * [Credits](#credits)
-
-	
-## About
-The projects in this repository cover:
-- Commenting code and following a coding style standard.
-- Variables, data structures, operators, expressions, loops, nested loops.
-- Conditional statements.
-- Functions.
 
 	
 ## Requirements 
