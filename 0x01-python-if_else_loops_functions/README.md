@@ -74,18 +74,20 @@ and functions written for `task 10` in this project.
 
 | Type/File                  | Definition/Prototype                                                             |
 | -------------------------- | -------------------------------------------------------------------------------- |
-| `0-run`        	     | `$PYFILE`                                          				|
-| `1-run_inline`             | `$PYCODE`                                        				|
-| `2-print.py`        	     | `print`                                          				|
-| `3-print_number.py`        | `number`                                        					|		
-| `4-print_float.py`         | `float`                                          				|
-| `5-print_string.py`        | `str`                                        					|		
-| `6-concat.py`        	     | `str1` and  `str2`                                        			|
-| `7-edges.py`               | `word_first_3` ,  `word_last_2` , `middle_word`                                	|		
-| `8-concat_edges.py`        | `object-oriented programming with Python`                                        |
-| `9-easter_egg.py`          | ` “The Zen of Python”, by Tim Peters`                                		|		
-| `10-check_cycle.c`         | `int check_cycle(listint_t *list);`                                        	|
-| `100-write.py`             | `write`                                						|		
+| `0-positive_or_negative.py`| `$PYFILE`                                          				|
+| `1-last_digit.py`          | `$PYCODE`                                        				|
+| `2-print_alphabet.py`      | `print`                                          				|
+| `3-print_alphabt.py`       | `number`                                        					|		
+| `4-print_hexa.py`          | `float`                                          				|
+| `5-print_comb2.py`         | `str`                                        					|		
+| `6-print_comb3.py`         | `str1` and  `str2`                                        			|
+| `7-islower.py`             | `word_first_3` ,  `word_last_2` , `middle_word`                                	|		
+| `8-uppercase.py`           | `object-oriented programming with Python`                                        |
+| `9-print_last_digit.py`    | ` “The Zen of Python”, by Tim Peters`                                		|		
+| `10-add.py`                | `int check_cycle(listint_t *list);`                                        	|
+| `11-pow.py`                | `write`                                						|		
+| `12-fizzbuzz.py`    	     | ` “The Zen of Python”, by Tim Peters`                                		|		
+| `13-insert_number.c`       | `int check_cycle(listint_t *list);`                                        	|
 		
 ## Tasks :page_with_curl:
 
