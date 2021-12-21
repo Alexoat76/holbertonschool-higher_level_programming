@@ -47,29 +47,59 @@ The projects in this repository cover:
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
-* Allowed editors: vi, vim, emacs. </div>
-<div style="text-align: justify">
-* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options: 
 	
-`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
+### Python Scripts:
+		
+* Allowed editors: `vi`, `vim`, `emacs`. </div>
+<div style="text-align: justify">
+
+* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
+* All your files should end with a new line.
+* The first line of all your files should be exactly `#!/usr/bin/python3`.
+* A `README.md` file at the root of the repo, containing a description of the repository.
+* A `README.md` file, at the root of the folder of this project, is mandatory.
+* Your code should use the pycodestyle (version 2.7).
+* All your files must be executable.
+* The length of your files will be tested using `wc`.
+	
+### Shell Scripts:
+	
+* Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
 	
-*A `README.md` file, at the root of the folder of the project is mandatory. </div>
-
+* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
+* All your scripts should be exactly two lines long (`wc -l` file should print 2)
+* All your files should end with a new line.
+* The first line of all your files should be exactly `#!/bin/bash`.
+* All your files must be executable.
+	
+### C Scripts:
+		
+* Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
-* Your code should use the Betty. It will be checked using</div>
 
-`betty-style.pl` and `betty-doc.pl`.</div>
+* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using using gcc, using the options.
+	`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
+	* All your files should end with a new line.
+	* Your code should use the `Betty`. 
+	It will be checked using `betty-style.pl` and `betty-doc.pl`.</div>
+	
+		* Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
+		* You are not allowed to use global variables.
+		* No more than 5 functions per file.
+	<div style="text-align: justify">
+		
+	* In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples.
+		
+	* The prototypes of all your functions should be included in your header file called `lists.h`.
+	* All your header files should be include guarded.
 
-Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
-
-
+	
 ## Projects 
 
 | Project | Description |
 | :--- | :--- |
 | [0x00 Python - Hello, World](./0x00-python-hello_world) | An introduction to Python  |
-
 
 	
 ## Credits
@@ -77,7 +107,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 ## Author(s):blue_book:
 
 Work is owned and maintained by 
-	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective README.md files.
+	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective `README.md` files.
 
 <3915@holbertonschool.com>
 	
