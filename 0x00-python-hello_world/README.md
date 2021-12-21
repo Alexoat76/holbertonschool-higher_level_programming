@@ -12,7 +12,7 @@ Don't forget to fully meet the following development requirements.
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements)
-* [Projects](#projects)
+* [Files](#files)
 * [Credits](#credits)
 
 	
@@ -77,7 +77,7 @@ Don't forget to fully meet the following development requirements.
 	* All your header files should be include guarded.
 
 	
-## Header File :file_folder:
+## Files :file_folder:
 
 * [lists.h](./lists.h): Header file containing definitions and prototypes for the types
 and functions written for `task 10` in this project.
