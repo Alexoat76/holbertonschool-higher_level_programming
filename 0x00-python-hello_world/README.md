@@ -77,7 +77,7 @@ Don't forget to fully meet the following development requirements.
 	* All your header files should be include guarded.
 
 	
-## Files :file_folder:
+## Files
 
 * [lists.h](./lists.h): Header file containing definitions and prototypes for the types
 and functions written for `task 10` in this project.
