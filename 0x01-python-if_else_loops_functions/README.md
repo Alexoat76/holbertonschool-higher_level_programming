@@ -74,20 +74,20 @@ and functions written for `task 10` in this project.
 
 | Type/File                  | Definition/Prototype                                                             |
 | -------------------------- | -------------------------------------------------------------------------------- |
-| `0-positive_or_negative.py`| `$PYFILE`                                          				|
-| `1-last_digit.py`          | `$PYCODE`                                        				|
+| `0-positive_or_negative.py`| `number`                                          				|
+| `1-last_digit.py`          | `number`                                        					|
 | `2-print_alphabet.py`      | `print`                                          				|
-| `3-print_alphabt.py`       | `number`                                        					|		
-| `4-print_hexa.py`          | `float`                                          				|
-| `5-print_comb2.py`         | `str`                                        					|		
-| `6-print_comb3.py`         | `str1` and  `str2`                                        			|
-| `7-islower.py`             | `word_first_3` ,  `word_last_2` , `middle_word`                                	|		
-| `8-uppercase.py`           | `object-oriented programming with Python`                                        |
-| `9-print_last_digit.py`    | ` “The Zen of Python”, by Tim Peters`                                		|		
-| `10-add.py`                | `int check_cycle(listint_t *list);`                                        	|
-| `11-pow.py`                | `write`                                						|		
-| `12-fizzbuzz.py`    	     | ` “The Zen of Python”, by Tim Peters`                                		|		
-| `13-insert_number.c`       | `int check_cycle(listint_t *list);`                                        	|
+| `3-print_alphabt.py`       | `print`                                        					|		
+| `4-print_hexa.py`          | `print`                                          				|
+| `5-print_comb2.py`         | `print`                                        					|		
+| `6-print_comb3.py`         | `print`                                        					|
+| `7-islower.py`             | `def islower(c):`                                				|		
+| `8-uppercase.py`           | `def uppercase(str):`                                        			|
+| `9-print_last_digit.py`    | `def print_last_digit(number):`                                			|		
+| `10-add.py`                | `def add(a, b):`                                        				|
+| `11-pow.py`                | `def pow(a, b):`                                					|		
+| `12-fizzbuzz.py`    	     | `def fizzbuzz():`                                				|		
+| `13-insert_number.c`       | `listint_t *insert_node(listint_t **head, int number);`                          |
 		
 ## Tasks :page_with_curl:
 
