@@ -91,7 +91,8 @@ The projects in this repository cover:
 | :--- | :--- |
 | [0x00 Python - Hello, World](./0x00-python-hello_world) | An introduction to Python  |
 | [0x01 Python - If, Else, Loops Functions](./0x01-python-if_else_loops_functions) | Loops and Conditionals  |
-	
+| [0x02. Python - Import & modules](./0x02-python-import_modules) | Importing and using functions and creating modules in Python  |
+		
 ## Credits
 
 ## Author(s):blue_book:
