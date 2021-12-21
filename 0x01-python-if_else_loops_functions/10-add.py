@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# File: 9-print_last_digit.py
+# File: 10-add.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
 
