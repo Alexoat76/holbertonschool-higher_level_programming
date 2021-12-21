@@ -98,7 +98,15 @@ and functions written for `task 10` in this project.
 | `10-check_cycle.c`         | `int check_cycle(listint_t *list);`                                        	|
 | `100-write.py`             | `write`                                						|		
 		
-		
+## Tasks :page_with_curl:
+
+* **0. Run Python file**
+  * [0-run](./0-run): Write a Shell script that runs a Python script.
+    The Python file name will be saved in the environment variable `$PYFILE`.
+
+* **1. List length**
+  * [1-listint_len.c](./1-listint_len.c): C function that returns the number
+    of elements in a `listint_t` linked list.		
 		
 		
 		
