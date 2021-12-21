@@ -85,7 +85,7 @@ The projects in this repository cover:
 	* All your header files should be include guarded.
 
 	
-## Projects :floppy_disk:
+## Projects 
 
 | Project | Description |
 | :--- | :--- |
