@@ -1,5 +1,3 @@
-![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
-
 # High Level Programming
 <div style="text-align: justify">
 
@@ -20,18 +18,10 @@ Thank you for visiting this repository which contain my programming projects wri
 	
 ## About
 The projects in this repository cover:
-- Compilation
-- Commenting code and following a coding style standard
-- Variables, types, operators, expressions, loops, nested loops
-- Conditional statements
-- Functions
-- Pre-processor, macros, header files, pointers, double pointers, function pointers, pointer arithmetic
-- Arrays, multidimensional arrays, structures
-- Static and dynamic libraries
-- Program arguments
-- Dynamic allocation
-- Virtual memory, heap, stack
-- Binary operations
+- Commenting code and following a coding style standard.
+- Variables, data structures, operators, expressions, loops, nested loops.
+- Conditional statements.
+- Functions.
 
 	
 ## Requirements 
@@ -124,3 +114,5 @@ This program was written as part of the curriculum for Holberton School.
 Holberton School is a campus-based full-stack software engineering program
 that prepares students for careers in the tech industry using project-based
 peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
