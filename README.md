@@ -100,7 +100,7 @@ The projects in this repository cover:
 | Project | Description |
 | :--- | :--- |
 | [0x00 Python - Hello, World](./0x00-python-hello_world) | An introduction to Python  |
-
+| [0x01 Python - If, Else, Loops Functions](./0x01-python-if_else_loops_functions) | Loops and Conditionals  |
 	
 ## Credits
 
