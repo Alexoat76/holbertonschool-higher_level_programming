@@ -92,52 +92,47 @@ and functions written for `task 10` in this project.
 ## Tasks :page_with_curl:
 
 * **0. Positive anything is better than negative nothing**
-  * [0-positive_or_negative.py](./0-positive_or_negative.py): Write a Shell script that runs a Python script.
-    The Python file name will be saved in the environment variable `$PYFILE`.
-
+  * [0-positive_or_negative.py](./0-positive_or_negative.py): This program will assign a `random` signed `number` to the variable number each time it is executed.
+		Complete the source code in order to print whether the number stored in the variable number is `positive or negative`.
 * **1. The last digit**
-  * [1-last_digit.py](./1-last_digit.py): Write a Shell script that runs Python code.
-    The Python code will be saved in the environment variable `$PYCODE`.
+  * [1-last_digit.py](./1-last_digit.py): This program will assign a random signed `number` to the variable `number` each time it is executed. 
+		Complete the source code in order to print the last digit of the `number` stored in the variable number.
 		
 * **2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
-  * [2-print_alphabet.py](./2-print_alphabet.py): Write a Python script that prints exactly `"Programming is like building a multilingual puzzle,` followed by a new line.
-    	* Use the function `print`.
+  * [2-print_alphabet.py](./2-print_alphabet.py): Write a program that prints the `ASCII` alphabet, in lowercase, not followed by a new line.
 
 * **3. When I was having that alphabet soup, I never thought that it would pay off**
-  * [3-print_alphabt.py](./3-print_alphabt.py): Prints the `integer` stored in the variable `number`, followed by `Battery street`, followed by a new line.
+  * [3-print_alphabt.py](./3-print_alphabt.py): Write a program that prints the `ASCII` alphabet, in lowercase, not followed by a new line.
 
 * **4. Hexadecimal printing**
-  * [4-print_hexa.py](./4-print_hexa.py): Prints the `float` stored in the variable `number` with a precision of `2 digits`.
+  * [4-print_hexa.py](./4-print_hexa.py): Write a program that prints all numbers from `0` to `98` in decimal and in hexadecimal.
 		
 * **5. 00...99**
-  * [5-print_comb2.py](./5-print_comb2.py): Prints `3 times` a `string` stored in the variable `str`, followed by its first 9 characters.
+  * [5-print_comb2.py](./5-print_comb2.py): Write a program that prints numbers from `0` to `99`.
 
 * **6. Inventing is a combination of brains and materials. The more brains you use, the less material you need**
-  * [6-print_comb3.py](./6-print_comb3.py): Print `Welcome to Holberton School!`
+  * [6-print_comb3.py](./6-print_comb3.py): Write a program that prints all possible different `combinations of two digits`.
 		
 * **7. islower**
-  * [7-islower.py](./7-islower.py): Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py).
+  * [7-islower.py](./7-islower.py): Write a function that `checks` for `lowercase` character.
 
 * **8. To uppercase**
-  * [8-uppercase.py](./8-uppercase.py): Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) to print object-oriented programming with Python, followed by a new line.
+  * [8-uppercase.py](./8-uppercase.py): Write a function that `prints` a string in `uppercase` followed by a new line.
 		
 * **9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
-  * [9-print_last_digit.py](./9-print_last_digit.py): Write a Python script that prints `“The Zen of Python”, by Tim Peters`, followed by a new line.
-		* Your script should be maximum `98` characters long (please check with `wc -m 9-easter_egg.py`)
+  * [9-print_last_digit.py](./9-print_last_digit.py): Write a function that prints the `last digit` of a number.
 
 * **10. a + b**
-  * [10-add.py](./10-add.py): Write a C function that checks if a singly linked list has a `cycle` in it.
+  * [10-add.py](./10-add.py): Write a function that `adds` two integers and returns the result.
 		
 * **11. a ^ b**
-  * [11-pow.py](./11-pow.py): Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+  * [11-pow.py](./11-pow.py): Write a function that computes `a` to the power of `b` and return the value.
 
 * **12. Fizz Buzz**
-  * [12-fizzbuzz.py](./12-fizzbuzz.py): Write a script that compiles a Python script file.
-		* The Python file name will be stored in the environment variable `$PYFILE`.
-		** The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
+  * [12-fizzbuzz.py](./12-fizzbuzz.py): Write a function that prints the numbers from `1` to `100` separated by a space.
 		
 * **13. Insert in sorted linked list**
-  * [13-insert_number.c](./13-insert_number.c): Write the Python function `def magic_calculation(a, b)`.
+  * [13-insert_number.c](./13-insert_number.c): Write a function in C that inserts a number into a sorted singly linked list.
 	
 ## Credits
 
