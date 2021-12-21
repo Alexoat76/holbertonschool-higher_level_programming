@@ -77,12 +77,31 @@ Don't forget to fully meet the following development requirements.
 	* All your header files should be include guarded.
 
 	
-## Projects 
+## Header File :file_folder:
 
-| Project | Description |
-| :--- | :--- |
-| [0x00 Python - Hello, World](./0x00-python-hello_world) | An introduction to Python  |
-| [0x01 Python - If, Else, Loops Functions](./0x01-python-if_else_loops_functions) | Loops and Conditionals  |
+* [lists.h](./lists.h): Header file containing definitions and prototypes for the types
+and functions written for `task 10` in this project.
+		
+
+| Type/File                  | Definition/Prototype                                                             |
+| -------------------------- | -------------------------------------------------------------------------------- |
+| `0-run`        	     | `$PYFILE`                                          				|
+| `1-run_inline`             | `$PYCODE`                                        				|
+| `2-print.py`        	     | `print`                                          				|
+| `3-print_number.py`        | `number`                                        					|		
+| `4-print_float.py`         | `float`                                          				|
+| `5-print_string.py`        | `str`                                        					|		
+| `6-concat.py`        	     | `str1` and  `str2`                                        			|
+| `7-edges.py`               | `word_first_3` ,  `word_last_2` , `middle_word`                                	|		
+| `8-concat_edges.py`        | `object-oriented programming with Python`                                        |
+| `9-easter_egg.py`          | ` “The Zen of Python”, by Tim Peters`                                		|		
+| `10-check_cycle.c`         | `int check_cycle(listint_t *list);`                                        	|
+| `100-write.py`             | `write`                                						|		
+		
+		
+		
+		
+		
 	
 ## Credits
 
