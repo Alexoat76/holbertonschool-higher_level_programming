@@ -44,17 +44,6 @@ Don't forget to fully meet the following development requirements.
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
 	
-### Shell Scripts: :pushpin:
-	
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-	
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
-* All your scripts should be exactly two lines long (`wc -l` file should print 2)
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/bin/bash`.
-* All your files must be executable.
-	
 ### C Scripts: :pushpin:
 		
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
