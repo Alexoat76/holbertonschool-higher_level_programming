@@ -69,7 +69,7 @@ Don't forget to fully meet the following development requirements.
 ## Files
 
 * [lists.h](./lists.h): Header file containing definitions and prototypes for the types
-and functions written for `task 10` in this project.
+and functions written for `task 13`.
 		
 
 | Type/File                  | Definition/Prototype                                                             |
