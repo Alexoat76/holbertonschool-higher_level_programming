@@ -9,7 +9,7 @@ Thank you for visiting this repository which contain my programming projects wri
 # Getting Started :running:	
 <div style="text-align: justify">
 	
-## Table of Contents
+## Table of Contents :clipboard:
 * [About](#about)
 * [Requirements](#requirements)
 * [Projects](#projects)
@@ -38,7 +38,7 @@ The projects in this repository cover:
 ## General :page_with_curl:
 <div style="text-align: justify">
 	
-### Python Scripts:
+### Python Scripts: :pushpin:
 		
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
@@ -52,7 +52,7 @@ The projects in this repository cover:
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
 	
-### Shell Scripts:
+### Shell Scripts: :pushpin:
 	
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
@@ -63,7 +63,7 @@ The projects in this repository cover:
 * The first line of all your files should be exactly `#!/bin/bash`.
 * All your files must be executable.
 	
-### C Scripts:
+### C Scripts: :pushpin:
 		
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
@@ -85,7 +85,7 @@ The projects in this repository cover:
 	* All your header files should be include guarded.
 
 	
-## Projects 
+## Projects :floppy_disk:
 
 | Project | Description |
 | :--- | :--- |
