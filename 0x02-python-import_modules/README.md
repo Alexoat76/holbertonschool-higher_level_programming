@@ -30,6 +30,9 @@ Don't forget to fully meet the following development requirements.
 * [Command line arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
 * [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
+**man or help**:
+
+`python3`
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
@@ -48,88 +51,39 @@ Don't forget to fully meet the following development requirements.
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
 	
-### C Scripts: :pushpin:
-		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using using gcc, using the options.
-	`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
-	* All your files should end with a new line.
-	* Your code should use the `Betty`. 
-	It will be checked using `betty-style.pl` and `betty-doc.pl`.</div>
-	
-		* Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
-		* You are not allowed to use global variables.
-		* No more than 5 functions per file.
-	<div style="text-align: justify">
-		
-	* In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples.
-		
-	* The prototypes of all your functions should be included in your header file called `lists.h`.
-	* All your header files should be include guarded.
-
-	
 ## Files
-
-* [lists.h](./lists.h): Header file containing definitions and prototypes for the types
-and functions written for `task 13`.
 
 
 | Type/File                  | Definition/Prototype                                                             |
 | -------------------------- | -------------------------------------------------------------------------------- |
-| `0-positive_or_negative.py`| `number`                                          				|
-| `1-last_digit.py`          | `number`                                        					|
-| `2-print_alphabet.py`      | `print`                                          				|
-| `3-print_alphabt.py`       | `print`                                        					|		
-| `4-print_hexa.py`          | `print`                                          				|
-| `5-print_comb2.py`         | `print`
+| `0-add.py`		     | `def add(a, b):`                                          			|
+| `1-calculation.py`         | `calculator_1.py`                                        			|
+| `2-args.py`      	     | `argument` or `arguments`                                          		|
+| `3-infinite_add.py`        | `int()`                                        					|		
+| `4-hidden_discovery.py`    | `hidden_4.pyc`                                          				|
+| `5-variable_load.py`       | `variable_load_5.py`
 
 
 ## Tasks :page_with_curl:
 
-* **0. Positive anything is better than negative nothing**
-  * [0-positive_or_negative.py](./0-positive_or_negative.py): This program will assign a `random` signed `number` to the variable number each time it is executed.
-		Complete the source code in order to print whether the number stored in the variable number is `positive or negative`.
-* **1. The last digit**
-  * [1-last_digit.py](./1-last_digit.py): This program will assign a random signed `number` to the variable `number` each time it is executed. 
-		Complete the source code in order to print the last digit of the `number` stored in the variable number.
+* **0. Import a simple function from a simple file**
+  * [0-add.py](./0-add.py): Write a program that imports the function `def add(a, b):` from the file `add_0.py` and prints the result of the addition.
+	
+* **1. My first toolbox!**
+  * [1-calculation.py](./1-calculation.py): Write a program that `imports` functions from the file `calculator_1.py`, does some Maths, and prints the result.
 		
-* **2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
-  * [2-print_alphabet.py](./2-print_alphabet.py): Write a program that prints the `ASCII` alphabet, in lowercase, not followed by a new line.
+* **2. How to make a script dynamic!**
+  * [2-args.py](./2-args.py): Write a program that `prints the number` of and the list of its `arguments`.
 
-* **3. When I was having that alphabet soup, I never thought that it would pay off**
-  * [3-print_alphabt.py](./3-print_alphabt.py): Write a program that prints the `ASCII` alphabet, in lowercase, not followed by a new line.
+* **3. Infinite addition**
+  * [3-infinite_add.py](./3-infinite_add.py): Write a program that `prints` the result of the `addition` of all `arguments`.
 
-* **4. Hexadecimal printing**
-  * [4-print_hexa.py](./4-print_hexa.py): Write a program that prints all numbers from `0` to `98` in decimal and in hexadecimal.
+* **4. Who are you?**
+  * [4-hidden_discovery.py](./4-hidden_discovery.py): Write a program that `prints all the names` defined by the compiled module `hidden_4.pyc`.
 		
-* **5. 00...99**
-  * [5-print_comb2.py](./5-print_comb2.py): Write a program that prints numbers from `0` to `99`.
+* **5. Everything can be imported**
+  * [5-variable_load.py](./5-variable_load.py): Write a program that `imports` the variable `a` from the file `variable_load_5.py` and prints its value..
 
-* **6. Inventing is a combination of brains and materials. The more brains you use, the less material you need**
-  * [6-print_comb3.py](./6-print_comb3.py): Write a program that prints all possible different `combinations of two digits`.
-		
-* **7. islower**
-  * [7-islower.py](./7-islower.py): Write a function that `checks` for `lowercase` character.
-
-* **8. To uppercase**
-  * [8-uppercase.py](./8-uppercase.py): Write a function that `prints` a string in `uppercase` followed by a new line.
-		
-* **9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
-  * [9-print_last_digit.py](./9-print_last_digit.py): Write a function that prints the `last digit` of a number.
-
-* **10. a + b**
-  * [10-add.py](./10-add.py): Write a function that `adds` two integers and returns the result.
-		
-* **11. a ^ b**
-  * [11-pow.py](./11-pow.py): Write a function that computes `a` to the power of `b` and return the value.
-
-* **12. Fizz Buzz**
-  * [12-fizzbuzz.py](./12-fizzbuzz.py): Write a function that prints the numbers from `1` to `100` separated by a space.
-		
-* **13. Insert in sorted linked list**
-  * [13-insert_number.c](./13-insert_number.c): Write a function in C that inserts a number into a sorted singly linked list.
 	
 ## Credits
 
