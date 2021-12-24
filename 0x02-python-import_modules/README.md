@@ -26,13 +26,10 @@ Don't forget to fully meet the following development requirements.
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
-* [More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
-* [Myths about Indentation](https://news.ycombinator.com/item?id=3057150)
-* [IndentationError](https://www.youtube.com/watch?v=1QXOd2ZQs-Q)
-* [How To Use String Formatters in Python 3](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
-* [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
-* [Learn to Program 2 : Looping](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+* [Modules](https://docs.python.org/3/tutorial/modules.html)
+* [Command line arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
 * [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
+
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
