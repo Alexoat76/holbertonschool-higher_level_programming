@@ -27,7 +27,7 @@ Don't forget to fully meet the following development requirements.
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
 * [3.1.3. Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
-* [Data structures](https://docs.python.org/3/tutorial/datastructures.html) (until 5.3. Tuples and Sequences included)
+* [Data structures](https://docs.python.org/3/tutorial/datastructures.html) (until `5.3. Tuples and Sequences` included)
 * [Learn to Program 6 : Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
 	
 ## General :page_with_curl:
@@ -200,8 +200,8 @@ Don't forget to fully meet the following development requirements.
 * **14. CPython #0: Python lists**
   * [100-print_python_list_info.c](./100-print_python_list_info.c): C function that prints basic information about Python lists.
 	- Prototype: `void print_python_list_info(PyObject *p);`
-	- Your shared library will be compiled with this command line: 
-		`gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`
+	- Your shared library will be compiled with this command line: <div style="text-align: justify">
+		`gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c` </div>
 		
 ## Credits
 
