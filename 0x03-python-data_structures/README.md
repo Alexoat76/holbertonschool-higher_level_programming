@@ -26,13 +26,9 @@ Don't forget to fully meet the following development requirements.
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
-* [Modules](https://docs.python.org/3/tutorial/modules.html)
-* [Command line arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
-* [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
-
-**man or help**:
-
-`python3`
+* [3.1.3. Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
+* [Data structures](https://docs.python.org/3/tutorial/datastructures.html) (until 5.3. Tuples and Sequences included)
+* [Learn to Program 6 : Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
