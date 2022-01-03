@@ -187,11 +187,11 @@ Don't forget to fully meet the following development requirements.
 		- You are not allowed to import any module
 		
 * **12. Switch**
-	* [12-switch.py](./12-switch.py)**: Python program that switches the values of variable `a` and `b`.
+	* [12-switch.py](./12-switch.py): Python program that switches the values of variable `a` and `b`.
   		* Completion of [this source code](https://github.com/holbertonschool/0x03.py/blob/master/12-switch_py).
 
 * **13. Linked list palindrome**
-	* [13-is_palindrome.c](./13-is_palindrome.c)**: C function that checks if a singly-linked list is a palindrome.
+	* [13-is_palindrome.c](./13-is_palindrome.c): C function that checks if a singly-linked list is a palindrome.
   		* If the function is not a palindrome - returns `0`.
   		* If the function is a palindrome - returns `1`.
   		* An empty list is considered a palindrome.
