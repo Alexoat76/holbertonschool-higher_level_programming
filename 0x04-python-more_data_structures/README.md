@@ -100,7 +100,7 @@ Don't forget to fully meet the following development requirements.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [test](./test): Folder of test files. Provided by Holberton School.
 		
 ## Tasks :page_with_curl:
 
