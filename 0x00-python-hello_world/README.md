@@ -97,7 +97,11 @@ and functions written for `task 10` in this project.
 | `9-easter_egg.py`          | ` “The Zen of Python”, by Tim Peters`                                		|		
 | `10-check_cycle.c`         | `int check_cycle(listint_t *list);`                                        	|
 | `100-write.py`             | `write`                                						|		
-		
+
+## Tests :heavy_check_mark:
+
+* [test](./test): Folder of test files. Provided by Holberton School.		
+
 ## Tasks :page_with_curl:
 
 * **0. Run Python file**
