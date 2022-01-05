@@ -63,6 +63,9 @@ Don't forget to fully meet the following development requirements.
 | `4-hidden_discovery.py`    | `hidden_4.pyc`                                          				|
 | `5-variable_load.py`       | `variable_load_5.py`
 
+## Tests :heavy_check_mark:
+
+* [test](./test): Folder of test files. Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
