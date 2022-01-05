@@ -95,7 +95,11 @@ and functions written for `task 13`.
 | `11-pow.py`                | `def pow(a, b):`                                					|		
 | `12-fizzbuzz.py`    	     | `def fizzbuzz():`                                				|		
 | `13-insert_number.c`       | `listint_t *insert_node(listint_t **head, int number);`                          |
-		
+
+## Tests :heavy_check_mark:
+
+* [test](./test): Folder of test files. Provided by Holberton School.	
+
 ## Tasks :page_with_curl:
 
 * **0. Positive anything is better than negative nothing**
