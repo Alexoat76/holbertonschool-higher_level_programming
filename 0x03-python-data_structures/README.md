@@ -88,6 +88,10 @@ Don't forget to fully meet the following development requirements.
 | `11-delete_at.py`                  | `def delete_at(my_list=[], idx=0):`            |
 | `100-print_python_list_info.c`     | `void print_python_list_info(PyObject *p);`    |
 
+## Tests :heavy_check_mark:
+
+* [test](./test): Folder of test files. Provided by Holberton School.		
+		
 ## Tasks :page_with_curl:
 
 * **0. Print a list of integers**
