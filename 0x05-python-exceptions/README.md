@@ -66,7 +66,7 @@ Prototypes for functions written in this project:
 	
 ## Tests :heavy_check_mark:
 
-* [test](./test): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 		
 ## Tasks :page_with_curl:
 
