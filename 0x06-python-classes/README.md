@@ -3,8 +3,8 @@
 # 0x06. Python - Classes and Objects.
 <div style="text-align: justify">
 
-In this project, you should to learn the difference between errors and exceptions, and how to use the exceptions in Python language with `try`
-and `except`.
+In this project, you should to learn and practice about `Object Oriented Programming` using `classes` and `objects` in Python. Learn how to use the `methods`, and
+`properties` as well as data `abstraction`, data `encapsulation`, and `information hiding`.
 
 Don't forget to fully meet the following development requirements.
 	
@@ -14,7 +14,6 @@ Don't forget to fully meet the following development requirements.
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements)
-* [Files](#files-floppy_disk)
 * [Credits](#credits)
 
 	
@@ -28,9 +27,12 @@ Don't forget to fully meet the following development requirements.
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
-* [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
-* [Learn to Program 11 Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4)
-	
+* [Object Oriented Programming](https://python.swaroopch.com/oop.html)(Read everything until the paragraph `“Inheritance”` excluded. You do `NOT have` to learn about class attributes, `classmethod` and `staticmethod` yet)
+* [Object Oriented Programming](https://python-course.eu/oop/object-oriented-programming.php) (Please **be careful**: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes `(You DON’T have to learn about class attributes)`, Methods, The `__init__` Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”)
+* [Properties vs. Getters and Setters](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
+* [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE)	
+* [Python Classes and Objects](https://www.youtube.com/watch?v=apACNr7DC_s)
+* [Object Oriented Programming](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
 
 ## General :page_with_curl:
 <div style="text-align: justify">
@@ -43,18 +45,13 @@ Don't forget to fully meet the following development requirements.
 * All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
 * All your files should end with a new line.
 * The first line of all your files should be exactly `#!/usr/bin/python3`.
-* A `README.md` file at the root of the repo, containing a description of the repository.
+* A `README.md` file, at the root of the folder of the project, is mandatory.
 * Your code should use the pycodestyle (version 2.7).
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
-
-	
-## Files :floppy_disk:
-
-Prototypes for functions written in this project:
-
-| File                             | Prototype                                               |
-| -------------------------------- | ------------------------------------------------------- |
+* All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+* All your classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+* All your functions `(inside and outside a class)` should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c` `'print(__import__("my_module").MyClass.my_function.__doc__)')`
 
 	
 ## Tests :heavy_check_mark:
@@ -63,64 +60,56 @@ Prototypes for functions written in this project:
 		
 ## Tasks :page_with_curl:
 
-* **0. Safe list printing**
-  	* [0-safe_print_list.py](./0-safe_print_list.py): Python function that prints `x` elements
-  	of a list on the same line, followed by a new line.
-  		* The parameter `x` represents the number of elements to print - can be
-  		bigger than the length of `my_list`.
-  		* Returns the real number of elements printed.
-  		* Without importing modules or using `len()`.
+* **0. My first square**
+  	* [0-square.py](./0-square.py): Python class `Square` that defines a square.
 
-* **1. Safe printing of an integers list**
-  	* [1-safe_print_integer.py](./1-safe_print_integer.py): Python function that prints an integer in `"{:d}".format()` format.
-  		* The parameter `value` can be any type.
-  		* Returns `True` if `value` was printed correctly (ie. was an integer),
-  		`False` otherwise.
-  		* Without importing modules or using `type()`.
+* **1. Square with size**
+  * [1-square.py](./1-square.py): Python class `Square` that defines a square. Builds on
+  [0-square.py](./0-square.py) with:
+    * Private instance attribute `size`.
+    * Instantiation with `size`.
 
-* **2. Print and count integers**
-  	* [2-safe_print_list_integers.py](./2-safe_print_list_integers.py): Python function that prints the first `x` elements of a list that are integers on the same line, 		followed by a new line.
-  		* The parameter `my_list` can contain any type.
- 		* The parameter `x` represents the number of elements to print - can be
-  		bigger than the length of `my_list`.
-  		* Reutnrs the real number of integers printed.
-  		* Without importing modules or using `len()`.
+* **2. Size validation**
+  * [2-square.py](./2-square.py): Python class `Square` that defines a square. Builds on
+  [1-square.py](./1-square.py) with:
+    * Instantiation with optional `size`: `def __init__(self, size=0):`
+  * If a provided `size` attribute is not an integer, a `TypeError` exception
+  is raised with the message `must be an integer`.
+  * If a provided `size` attribute is less than `0`, a `ValueError` exception
+  is raised with the message `size must be >= 0`.
 
-* **3. Integers division with debug**
-  	* [3-safe_print_division.py](./3-safe_print_division.py): Python function that divides two integers and prints the result using `finally:`.
-  		* The function assumes that the arguments are integers.
-  		* Upon success, returns the value of the division; otherwise - returns `None`.
-  		* Without importing modules.
+* **3. Area of a square**
+  * [3-square.py](./3-square.py): Python class `Square` that defines a square. Builds on
+  [2-square.py](./2-square.py) with:
+    * Public instance attribute `def area(self):` that returns the current
+    square area.
 
-* **4. Divide a list**
-  	* [4-list_division.py](./4-list_division.py): Python function that divides two lists element by element.
-  		* Returns a new list of length `list_length` with all divisions.
-  		* The lists `my_list_1` and `my_list_2` can contain any type.
-  		* The parameter `list_length` can be larger than the lengths of either list.
-  		* If an element is not an integer or float, the function prints `wrong type`.
-  		* If the division cannot be done, the result of the division is `0` and the
-  		function prints: `division by 0`.
-  		* If either of `my_list_1` or `my_list_2` are too short, the function prints:
-  		`out of range`.
-  		* Without importing modules.
+* **4. Access and update private attribute**
+  * [4-square.py](./4-square.py): Python class `Square` that defines a square. Builds on
+  [3-square.py](./3-square.py) with:
+    * Property `def size(self):` to retrieve the private instance
+    attribute `self`.
+    * Property setter `def size(self, value):` to set `self`.
 
-* **5. Raise exception**
-  	* [5-raise_exception.py](./5-raise_exception.py): Python function that raises
-  	a type exception.
-  		* Without importing modules.
+* **5. Printing a square**
+  * [5-square.py](./5-square.py): Python class `Square` that defines a square. Builds on
+  [4-square.py](./4-square.py) with:
+    * Public instance method `def my_print(self):` that prints the square
+    with the character `#` to standard output (if `size` == 0 -> prints an empty
+    line).
 
-* **6. Raise a message**
-  	* [6-raise_exception_msg.py](./6-raise_exception_msg.py): Python function that raises a
-  	name exception with a message.
-  		* Without importing modules.
+* **6. Coordinates of a square**
+  * [6-square.py](./6-square.py): Python class `Square` that defines a square. Builds on
+  [5-square.py](./5-square.py) with:
+    * Private instance attribute `position`.
+    * Property `def position(self):` to retreive `position`.
+    * Property setter `def position(self, value):` to set `position`.
+    * Instantiation with optional `size` and `position`:
+    `def __init__(self, size=0, position=(0, 0)):`
+  * If a provided `position` attribute is not a tuple of two integers, a
+  `TypeError` exception is raised with the message `position must be a tuple of
+  2 positive integers`.
 
-* **7. Safe integer print with error message**
-  	* [100-safe_print_integer_err.py](./100-safe_print_integer_err.py): Python function that
-  	prints an integer with type-checking in `"{:d}".format())` format.
-  		* The paramter `value` can be any type.
-  		* Returns `True` if `value` was printed correctly (ie. was an integer).
-  		* Otherwise, prints an exception error to `stderr` and returns `False`.
-  		* Without importing modules.	
 		
 ## Credits
 
