@@ -14,7 +14,7 @@ Don't forget to fully meet the following development requirements.
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements)
-* [Tasks](#tasks)
+* [Tasks](#tasks-page_with_curl)
 * [Credits](#credits)
 
 	
