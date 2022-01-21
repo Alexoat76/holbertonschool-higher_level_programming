@@ -95,7 +95,7 @@ The projects in this repository cover:
 | [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures) | Python sequences: lists, tuples  |
 | [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures) | Sets, dictionaries, lambda expressions |
 | [0x05. Python - Exceptions](./0x05-python-exceptions) | Handling errors and exceptions |
-| [0x06. Python - Classes](./0x06-python-classes) | Introduction to Object Oriented Programming |
+| [0x06. Python - Classes and Objects](./0x06-python-classes) | Introduction to Object Oriented Programming |
 | [0x07. Python - Test_driven_development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
 ## Credits
 
