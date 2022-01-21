@@ -13,7 +13,7 @@ Don't forget to fully meet the following development requirements.
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements)
-* [Files](#files)
+* [Files](#files-heavy_check_mark)
 * [Tasks](#tasks-page_with_curl)
 * [Credits](#credits)
 
