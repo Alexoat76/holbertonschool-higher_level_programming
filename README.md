@@ -97,8 +97,8 @@ The projects in this repository cover:
 | [0x05. Python - Exceptions](./0x05-python-exceptions) | Handling errors and exceptions |
 | [0x06. Python - Classes and Objects](./0x06-python-classes) | Introduction to Object Oriented Programming |
 | [0x07. Python - Test_driven_development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
-| [0x08-python-more_classes](./0x08-python-more_classes) | Public, private, class, static methods            |
-
+| [0x08. Python - More Classes and Objects](./0x08-python-more_classes) | Public, private, class, static methods |
+| [0x09. Python - Everything is object](./0x09-python-everything_is_object) | Mutable objects vs immutable objects |
 
 ## Credits
 
