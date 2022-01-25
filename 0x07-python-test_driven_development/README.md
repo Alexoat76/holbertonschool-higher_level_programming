@@ -129,7 +129,7 @@ Don't forget to fully meet the following development requirements.
   		* No spaces are printed at the beginning or end of each printed line.
 
 * **5. Max integer - Unittest**
-  	* [tests/6-max_integer_test.py](./tests/6-max_integer_text.py): Python class/script
+  	* [tests/6-max_integer_test.py](https://github.com/Alexoat76/holbertonschool-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/6-max_integer_test.py): Python class/script
   	that runs unittests for the function `def max_integer(list=[]):`
   	(provided by Holberton School).
 		
