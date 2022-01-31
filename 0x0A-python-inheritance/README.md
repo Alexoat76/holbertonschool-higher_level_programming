@@ -1,9 +1,11 @@
 ![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
 
-# 0x07. Python - Test-driven development
+# 0x0A. Python - Inheritance
 <div style="text-align: justify">
 
-In this project, you should to learn and practice about Python class inheritance and the differences between super- and sub-classes.
+In this project, you should to learn and practice about Python class inheritance and recognize the differences 
+	<div style="text-align: justify">
+	between super- and sub-classes.
 
 Don't forget to fully meet the following development requirements.
 	
@@ -28,10 +30,11 @@ Don't forget to fully meet the following development requirements.
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
-* [doctest — Test interactive Python examples](https://docs.python.org/3.4/library/doctest.html)(until “26.2.3.7. Warnings” included)
-* [doctest – Testing through documentation](https://pymotw.com/3/doctest/)
-* [Unit Tests in Python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
-
+* [Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
+* [Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
+* [Inheritance in Python](https://hub.packtpub.com/inheritance-python/)
+* [Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
+	
 ## General :page_with_curl:
 <div style="text-align: justify">
 	
@@ -48,7 +51,7 @@ Don't forget to fully meet the following development requirements.
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
 	
-### Python Scripts: :pushpin:
+### Python Test Cases: :pushpin:
 
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
@@ -59,7 +62,8 @@ Don't forget to fully meet the following development requirements.
 * All your tests should be executed by using this command: `python3 -m doctest ./tests/*`
 * All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
 * All your classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
-* All your functions should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)')`
+* All your functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'`
+	and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
 * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method
 	<div style="text-align: justify">
 	(the length of it will be verified)
@@ -68,70 +72,86 @@ Don't forget to fully meet the following development requirements.
 ## Files :heavy_check_mark:
 
 * [main_files](./main_files): Folder of main files. Provided by Holberton School.
+
 		
-| File                     | Prototype                                    |
-| ------------------------ | -------------------------------------------- |
-| `0-add_integer.py`       | `def add_integer(a, b=98):`                  |
-| `2-matrix_divided.py`    | `def matrix_divided(matrix, div):`           |
-| `3-say_my_name.py`       | `def say_my_name(first_name, last_name=""):` |
-| `4-print_square.py`      | `def print_square(size):`                    |
-| `5-text_indentation.py`  | `def text_indentation(text):`                |
-| `6-max_integer_test.py`  | `def max_integer(list=[]):`		  |
+| File                    | Prototype                             |
+| ----------------------- | ------------------------------------- |
+| `0-lookup.py`           | `def lookup(obj):`                    |
+| `1-my_list.py`          | `def print_sorted(self):`             |		
+| `2-is_same_class.py`    | `def is_same_class(obj, a_class):`    |
+| `3-is_kind_of_class.py` | `def is_kind_of_class(obj, a_class):` |
+| `4-inherits_from.py`    | `def inherits_from(obj, a_class):`    |
 		
 ## Tasks :page_with_curl:
 
-* **0. Integers addition**
-  	* [0-add_integer.py](./0-add_integer.py): Python function that returns the integer addition
- 	 of two numbers.
- 		* If either of `a` or `b` is not an `int` or `float`, a `TypeError` is raised
-  		with the message `a must be an integer` or `b must be an integer`.
-  		* If either of `a` or `b` is a `float`, it is casted to an `int`
-  		before addition.
+* **0. Lookup**
+  	* [0-lookup.py](./0-lookup.py): Python function that returns a list of available attributes
+  	and methods of an objects.
 
-* **1. Divide a matrix**
-  	* [2-matrix_divided.py](./2-matrix_divided.py): Python function that divides all
-  	elements of a matrix by a common divisor.
-  		* Returns a new matrix representing the division of all elements of `matrix`
-  		by `div`.
-  		* Quotients are rounded to two decimal places.
-  		* If `matrix` is not a list of lists of `int`s or `float`s, a `TypeError`
-  		is raised with the message `matrix must be a matrix (list of lists) of
-  		integers/floats`.
-  		* If `matrix` contains rows of different lengths, a `TypeError` is raised
-  		with the message `Each row of the matrix must have the same size`.
-  		* If the divisor `div` is not an `int` or `float`, a `TypeError` is raised
- 		with the message `div must be a number`.
-  		* If `div` is `0`, a `ZeroDivisionError` is raised with the message
-  		`division by zero`.
+* **1. My list**
+  	* [1-my_list.py](./1-my_list.py): Python class `MyList` that inherits from `list`. Includes:
+    		* Public instance method `def print_sorted(self):` that prints the list in
+    		ascending sorted order (assumes all list elements are `int`s).
 
-* **2. Say my name**
-  	* [3-say_my_name.py](./3-say_my_name.py): Python function that prints a name in
-  	the format `My name is <first_name> <last_name>`.
-  		* If either of `first_name` or `last_name` is not a `str`, a `TypeError` is
-  		raised with the message `first_name must be a string` or `last_name must be a
-  		string`.
+* **2. Exact same object**
+  	* [2-is_same_class.py](./2-is_same_class.py): Python function that returns `True` if an object is
+  	exactly an instance of a specified class; otherwise `False`.
 
-* **3. Print square**
-  	* [4-print_square.py](./4-print_square.py): Python function that prints a square using
-  	the `#` character.
-  		* The paramter `size` represents the height/width of the square.
-  		* If `size` is not an `int`, a `TypeError` is raised  with the message,
-  		`size must be an integer`.
-  		* If `size` is less than `0`, a `ValueError` is raised with the message `size
-  		must be >= 0`.
+* **3. Same class or inherit from**
+  	* [3-is_kind_of_class.py](./3-is_kind_of_class.py): Python function that returns `True` if an object is
+  	an instance or inherited instance of a specified class; otherwise `False`.
 
-* **4. Text indentation**
-  	* [5-text_indentation.py](./5-text_indentation.py): Python function that prints text with
-  	indentation.
-  		* Two new lines are printed after any `.`, `?`, or `:` character.
-  		* If `text` is not a `str`, a `TypeError` is raised with the message `text
-  		must be a string`.
-  		* No spaces are printed at the beginning or end of each printed line.
+* **4. Only sub class of**
+  	* [4-inherits_from.py](./4-inherits_from.py): Python function that returns `True` if an object is
+  	an inherited instance (either directly or indirectly) from a specified class;
+  	otherwise `False`.
 
-* **5. Max integer - Unittest**
-  	* [tests/6-max_integer_test.py](https://github.com/Alexoat76/holbertonschool-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/6-max_integer_test.py): Python class/script
-  	that runs unittests for the function `def max_integer(list=[]):`
-  	(provided by Holberton School).
+* **5. Geometry module**
+  	* [5-base_geometry.py](./5-base_geometry.py): An empty Python class `BaseGeometry`.
+
+* **6. Improve Geometry**
+  	* [6-base_geometry.py](./6-base_geometry.py): Python class `BaseGeometry`. Builds on
+  	[5-base_geometry.py](./5-base_geometry.py) with:
+    		* Public instance method `def area(self):` that raises an `Exception` with
+    		the message `area() is not implemented`.
+
+* **7. Integer validator**
+  	* [7-base_geometry.py](./7-base_geometry.py): Python class `BaseGeometry`. Builds on
+  	[6-base_geometry.py](./6-base_geometry.py) with:
+    		* Public instance method `def integer_validator(self, name, value):` that
+    		validates the parameter `value`.
+    		* Assumes the parameter `name` is always a string.
+    		* The parameter `value` must be an `int`, otherwise, a `TypeError` exception
+    		is raised with the message `<name> must be an integer`.
+    		* The parameter `value` must be greater than `0`, otherwise, a
+    		`ValueError` exception is raised with the message `<value> must be greater
+    		than 0`.
+
+* **8. Rectangle**
+  	* [8-rectangle.py](./8-rectangle.py): Python class `Rectangle` that inherits from `BaseGeometry`
+  	([7-base_geometry.py](./7-base_geometry.py)). Includes:
+    		* Private attributes `width` and `height` - validated with `integer_validator`.
+    		* Instantiation with `width` and `height`: `def __init__(self, width, height):`
+
+* **9. Full rectangle**
+  	* [9-rectangle.py](./9-rectangle.py): Python class `Rectangle` that inherits from `BaseGeometry`
+  	([7-base_geometry.py](./7-base_geometry.py)). Builds on [8-rectangle.py](./8-rectangle.py) with:
+    		* Implementation of the method `area()`.
+    		* Special method `__str__` to print `Rectangle`s in the format `[Rectangle]
+    		<width>/<height>`.
+
+* **10. Square #1**
+  	* [10-square.py](./10-square.py): Python class `Square` that inherits from `Rectangle`
+  	([9-rectangle.py](./9-rectangle.py)). Includes:
+    		* Private attribute `size` - validated with `integer_validator`.
+    		* Instantiation with `size`: `def __init__(self, size):`.
+    		* Implementation of the `area()` method.
+
+* **11. Square #2**
+  	* [11-square.py](./11-square.py): Python class `Square` that inherits from `Rectangle`
+  	([9-rectangle.py](./9-rectangle.py)). Builds on [10-square.py](./10-square.py) with:
+    		* Special method `__str__` to print squares in the format `[Square]
+    		<width>/<height>`.
 		
 ## Credits
 
