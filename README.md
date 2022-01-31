@@ -99,7 +99,7 @@ The projects in this repository cover:
 | [0x07. Python - Test_driven_development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
 | [0x08. Python - More Classes and Objects](./0x08-python-more_classes) | Public, private, class, static methods |
 | [0x09. Python - Everything is object](./0x09-python-everything_is_object) | Mutable objects vs immutable objects |
-| [0x0A-python-inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
+| [0x0A. Python - Inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
 
 ## Credits
 
