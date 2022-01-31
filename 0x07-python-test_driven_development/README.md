@@ -48,7 +48,7 @@ Don't forget to fully meet the following development requirements.
 * All your files must be executable.
 * The length of your files will be tested using `wc`.
 	
-### Python Scripts: :pushpin:
+### Python Test Cases: :pushpin:
 
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
