@@ -100,7 +100,8 @@ The projects in this repository cover:
 | [0x08. Python - More Classes and Objects](./0x08-python-more_classes) | Public, private, class, static methods |
 | [0x09. Python - Everything is object](./0x09-python-everything_is_object) | Mutable objects vs immutable objects |
 | [0x0A. Python - Inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
-
+| [0x0B. Python - Input / Output](./0x0B-python-input_output) | Open, read, write files |
+		
 ## Credits
 
 ## Author(s):blue_book:
