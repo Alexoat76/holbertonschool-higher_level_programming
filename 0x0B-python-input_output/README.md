@@ -3,9 +3,7 @@
 # 0x0B. Python - Input/Output
 <div style="text-align: justify">
 
-In this project, you should to learn and practice about Python class inheritance and recognize the differences 
-	<div style="text-align: justify">
-	between super- and sub-classes.
+In this project, you should to learn, practice file handling in Python. Do you use the builtin with, `open`, and `read` functions with the `json` module to `read` and `write` files and serialize and deserialize objects with `JSON`. 
 
 Don't forget to fully meet the following development requirements.
 	
