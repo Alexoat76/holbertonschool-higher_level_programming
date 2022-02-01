@@ -3,7 +3,7 @@
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
 
-"""Defines an inherited list class MyList."""
+"""Defines an inherited list class MyList"""
 
 
 class MyList(list):
