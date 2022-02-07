@@ -96,11 +96,12 @@ The projects in this repository cover:
 | [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures) | Sets, dictionaries, lambda expressions |
 | [0x05. Python - Exceptions](./0x05-python-exceptions) | Handling errors and exceptions |
 | [0x06. Python - Classes and Objects](./0x06-python-classes) | Introduction to Object Oriented Programming |
-| [0x07. Python - Test_driven_development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
+| [0x07. Python - Test driven development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
 | [0x08. Python - More Classes and Objects](./0x08-python-more_classes) | Public, private, class, static methods |
 | [0x09. Python - Everything is object](./0x09-python-everything_is_object) | Mutable objects vs immutable objects |
 | [0x0A. Python - Inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
 | [0x0B. Python - Input / Output](./0x0B-python-input_output) | Open, read, write files |
+| [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle) | Args/kwargs, serialization, JSON |
 		
 ## Credits
 
