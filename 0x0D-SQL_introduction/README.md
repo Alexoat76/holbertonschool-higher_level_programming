@@ -1,9 +1,6 @@
 <p align="center">
-<img src="https://img.shields.io/badge/Made%20with-Python-blue.svg"/>
-<img src="https://img.shields.io/badge/Markdown-black.svg"/>
-<img src="https://img.shields.io/badge/HTML-orange.svg"/>
-<img src="https://img.shields.io/badge/CSS-rebeccapurple.svg"/> <br>
-<img src="https://img.shields.io/github/license/Alexoat76/AirBnB_clone"/>
+<img src="https://img.shields.io/badge/Made%20with-SQL-blue.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <img src="https://img.shields.io/github/repo-size/Alexoat76/AirBnB_clone"/>
 <img src="https://img.shields.io/github/languages/code-size/Alexoat76/AirBnB_clone.svg"/>
 <img src="https://img.shields.io/github/last-commit/Alexoat76/AirBnB_clone/main?style=round-square"/>	
@@ -17,8 +14,12 @@
 Thank you for visiting this repository. Each file in this repository holds code that illustrates an essential concept of programming, specific to the SQL programming language. 
 <div style="text-align: justify">
 
-![sql](https://github.com/Alexoat76/AirBnB_clone/blob/main/assets/hbnb-logo.png?raw=true)
-
+<p align="center">
+  <img width="250"  
+        src="https://github.com/Alexoat76/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/assets/sql.png"
+  >
+</p>	
+	
 
 # Getting Started :running:	
 <div style="text-align: justify">
