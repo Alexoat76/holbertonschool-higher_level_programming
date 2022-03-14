@@ -31,6 +31,8 @@ Thank you for visiting this repository. Each file in this repository holds code 
 	
 This project contains some tasks for learning the basics about **`SQL`** using the **`MySQL`** DBMS.
 	
+[Databases](https://intranet.hbtn.io/concepts/556)
+	
 ## Resources :books:
 
 **Read or watch** :
