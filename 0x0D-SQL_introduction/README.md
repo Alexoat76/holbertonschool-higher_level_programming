@@ -1,9 +1,6 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Made%20with-SQL-blue.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
-<img src="https://img.shields.io/github/repo-size/Alexoat76/AirBnB_clone"/>
-<img src="https://img.shields.io/github/languages/code-size/Alexoat76/AirBnB_clone.svg"/>
-<img src="https://img.shields.io/github/last-commit/Alexoat76/AirBnB_clone/main?style=round-square"/>	
 </p>
 	
 ---
@@ -27,11 +24,8 @@ Thank you for visiting this repository. Each file in this repository holds code 
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
-
 * [Tasks](#tasks)
-
 * [Credits](#credits)
-
 	
 ## About
 	
@@ -41,33 +35,33 @@ This project contains some tasks for learning the basics about **`SQL`** using t
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=AirBnB+clone+-+The+console&ei=eh8dYprkLtCawbkPs7uoCA&ved=0ahUKEwiaidyMjqP2AhVQTTABHbMdCgEQ4dUDCA4&uact=5&oq=AirBnB+clone+-+The+console&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQAFgAYPYLaAFwAHgAgAEAiAEAkgEAmAEAwAEB&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=sql&oq=sql&aqs=chrome..69i57j0i512l9.1309j0j15&sourceid=chrome&ie=UTF-8)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/playlist?list=PLlLHfkTcnvmPOp6jv_89tRpJUMFrP-Wbi)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=sql)
 	
 	
-- What is Database & SQL?
-- A Basic MySQL Tutorial
-- Basic SQL statements: DDL and DML (no need to read the chapter “Privileges”)
-- Basic queries: SQL and RA
-- SQL technique: functions
-- SQL technique: subqueries
-- What makes the big difference between a backtick and an apostrophe?
-- MySQL Cheat Sheet
-- MySQL 8.0 SQL Statement Syntax
+- [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM)
+- [A Basic MySQL Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+- [Basic SQL statements: DDL and DML](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/ddldml.php) **`(no need to read the chapter “Privileges”)`**
+- [Basic queries: SQL and RA](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php)
+- [SQL technique: functions](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/functions.php)
+- [SQL technique: subqueries](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/subqueries.php)
+- [What makes the big difference between a backtick and an apostrophe?](https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458)
+- [MySQL Cheat Sheet](https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf)
+- [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 	
 ## Requirements
 	
 ## General :page_with_curl:
 	
 - Allowed editors: `vi`, `vim`, `emacs`.
-- All your files will be executed on `Ubuntu 20.04` LTS using `MySQL 8.0` (version 8.0.25)
-- All your files should end with a new line
-- All your `SQL` queries should have a comment just before (i.e. syntax above)
-- All your files should start by a comment describing the task
-- All `SQL keywords` should be in **`uppercase`** (SELECT, WHERE…)
-- A `README.md` file, at the root of the folder of the project, is mandatory
-- The length of your files will be tested using `wc`
+- All your files will be executed on `Ubuntu 20.04` LTS using `MySQL 8.0` (version 8.0.25).
+- All your files should end with a new line.
+- All your **`SQL`** queries should have a comment just before (i.e. syntax above).
+- All your files should start by a comment describing the task.
+- All `SQL keywords` should be in **`uppercase`** (SELECT, WHERE…).
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- The length of your files will be tested using `wc`.
 
 	
 ## Tasks
