@@ -1,3 +1,14 @@
+<p align="center">
+<img src="https://img.shields.io/badge/Made%20with-Python-blue.svg"/>
+<img src="https://img.shields.io/badge/SQL-blue.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+<img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-higher_level_programming"/>
+<img src="https://img.shields.io/github/languages/code-size/Alexoat76/holbertonschool-higher_level_programming.svg"/>
+<img src="https://img.shields.io/github/last-commit/Alexoat76/holbertonschool-higher_level_programming/main?style=round-square"/>	
+</p>
+	
+---
+
 # High Level Programming
 <div style="text-align: justify">
 
@@ -102,6 +113,7 @@ The projects in this repository cover:
 | [0x0A. Python - Inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
 | [0x0B. Python - Input / Output](./0x0B-python-input_output) | Open, read, write files |
 | [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle) | Args/kwargs, serialization, JSON |
+| [0x0D. SQL - Introduction](./0x0D-SQL_introduction) | MySQL tables and basic queries |
 		
 ## Credits
 
