@@ -4,9 +4,9 @@
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-higher_level_programming"/>
 <img src="https://img.shields.io/github/languages/code-size/Alexoat76/holbertonschool-higher_level_programming.svg"/>
-<img src="https://img.shields.io/github/last-commit/Alexoat76/holbertonschool-higher_level_programming/main?style=round-square"/>	
+<img src="https://img.shields.io/github/last-commit/Alexoat76/holbertonschool-higher_level_programming?style=round-square"/>	
 </p>
-	
+
 ---
 
 # High Level Programming
