@@ -68,7 +68,8 @@ This project contains some tasks for learning the basics about **`SQL`** using t
 	
 ## Tasks
 
-+ [x] 0\. List databases <br/>_**[0-list_databases.sql](0-list_databases.sql)**_ contains a script that lists all databases of the MySQL server.
++ [x] 0\. List databases <br/>_**[0-list_databases.sql](0-list_databases.sql)**_ contains a script that lists all databases of the MySQL server.<br>
+	
 + [x] 1\. Create a database <br/>_**[1-create_database_if_missing.sql](1-create_database_if_missing.sql)**_ contains a script that creates the database ``hbtn_0c_0`` in the MySQL server (if it doesn't exist).
 + [x] 2\. Delete a database <br/>_**[2-remove_database.sql](2-remove_database.sql)**_ contains a script that deletes the database `hbtn_0c_0` in the MySQL server (if it exists).
 + [x] 3\. List tables <br/>_**[3-list_tables.sql](3-list_tables.sql)**_ contains a script that lists all the tables of a database in the MySQL server.
