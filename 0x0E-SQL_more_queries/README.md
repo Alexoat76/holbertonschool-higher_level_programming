@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Made%20with-SQL-blue.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+	
 </p>
 	
 ---
@@ -15,6 +16,9 @@ Thank you for visiting this repository. Each file in this repository holds code 
   <img width="250"  
         src="https://github.com/Alexoat76/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/assets/sql.png"
   >
+	
+[![sqlstyle.guide](https://img.shields.io/badge/style-sqlstyle.guide-purple.svg)](https://www.sqlstyle.guide/)
+
 </p>	
 	
   
