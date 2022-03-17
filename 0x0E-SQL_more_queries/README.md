@@ -81,7 +81,8 @@ Extra resources around relational database model design:
 
 # Tasks
 
-+ [x] 0\. My privileges! <br/>_**[0-privileges.sql](0-privileges.sql)**_ contains a script that lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on the MySQL server.
++ [x] 0\. My privileges! <br/>_**[0-privileges.sql](0-privileges.sql)**_ contains a script that lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on the MySQL server.<br>
+	
 + [x] 1\. Root user <br/>_**[1-create_user.sql](1-create_user.sql)**_ contains a script that creates the MySQL server user `user_0d_1` with all privileges and the password `user_0d_1_pwd` in the MySQL server (if it doesn't exist).
 + [x] 2\. Read user <br/>_**[2-create_read_user.sql](2-create_read_user.sql)**_ contains a script that creates the database `hbtn_0d_`,2 and the user `user_0d_2` with only SELECT privileges and the password `user_0d_2_pwd` in the MySQL server (if they don't exist).
 + [x] 3\. Always a name <br/>_**[3-force_name.sql](3-force_name.sql)**_ contains a script that creates the table `force_name` in the MySQL server (if it doesn't exist).
