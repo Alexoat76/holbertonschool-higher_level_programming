@@ -1,7 +1,44 @@
+<p align="center">
+<img src="https://img.shields.io/badge/Made%20with-SQL-blue.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+</p>
+	
+---
+
 # 0x0E. SQL - More queries
 
-## Resources
-Read or watch :
+Thank you for visiting this repository. Each file in this repository holds code that illustrates an essential concept of programming, specific to the SQL programming language. Like Basic query operation: **`the join`**.
+
+<div style="text-align: justify">
+
+<p align="center">
+  <img width="250"  
+        src="https://github.com/Alexoat76/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/assets/sql.png"
+  >
+</p>	
+	
+  
+# Getting Started :running:	
+<div style="text-align: justify">
+	
+## Table of Contents
+* [About](#about)
+* [Requirements](#requirements)
+* [Tasks](#tasks)
+* [Credits](#credits)
+
+## About
+	
+This project contains some tasks for learning more about the basics of **`SQL`** using the **`MySQL`** DBMS.
+  
+## Resources :books:
+
+**Read or watch** :
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=sql&oq=sql&aqs=chrome..69i57j0i512l9.1309j0j15&sourceid=chrome&ie=UTF-8)
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=sql)
+
 - [How To Create a New User and Grant Permissions in MySQL](https://intranet.hbtn.io/rltoken/u4h2MXcCQfadszlRMQy-gw) 
 - [How To Use MySQL GRANT Statement To Grant Privileges To a User](https://intranet.hbtn.io/rltoken/ztrEKQexfEDtZ-8EUsG70Q) 
 - [MySQL constraints](https://intranet.hbtn.io/rltoken/LBrFqCMm9N9woTX7sS7e0g) 
@@ -97,3 +134,27 @@ Extra resources around relational database model design:
 + [x] 14\. My genres <br/>_**[14-my_genres.sql](14-my_genres.sql)**_ contains a script that uses the `hbtn_0d_tvshows` database to list all genres of the show `Dexter`. Each record should display: `tv_genres.name`. The results must be sorted in ascending order by the genre name. Only one **SELECT** statement can be used.
 + [x] 15\. Only Comedy <br/>_**[15-comedy_only.sql](15-comedy_only.sql)**_ contains a script that lists all `Comedy` shows in the database `hbtn_0d_tvshows`. Each record should display: `tv_shows.title`. The results must be sorted in ascending order by the show title. Only one **SELECT** statement can be used.
 + [x] 16\. List shows and genres <br/>_**[16-shows_by_genre.sql](16-shows_by_genre.sql)**_ contains a script that lists all shows, and all genres linked to that show, from the database `hbtn_0d_tvshows`. If a show doesn’t have a `genre`, display `NULL` in the `genre` column. Each record should display: `tv_shows.title` - `tv_genres.name` (in that order). The results must be sorted in ascending order by the show title and genre name. Only one **SELECT** statement can be used.
+
+## Credits
+
+## Author(s):blue_book:
+
+Work is owned and maintained by 
+	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective `README.md` files.
+
+<3915@holbertonschool.com>
+	
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
+[![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
+
+## Acknowledgments :mega: 
+
+### **`Holberton School`** (*providing guidance*)
+	
+This program was written as part of the curriculum for Holberton School.
+Holberton School is a campus-based full-stack software engineering program
+that prepares students for careers in the tech industry using project-based
+peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
+
