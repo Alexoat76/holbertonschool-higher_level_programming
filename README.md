@@ -114,6 +114,7 @@ The projects in this repository cover:
 | [0x0B. Python - Input / Output](./0x0B-python-input_output) | Open, read, write files |
 | [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle) | Args/kwargs, serialization, JSON |
 | [0x0D. SQL - Introduction](./0x0D-SQL_introduction) | MySQL tables and basic queries |
+| [0x0E. SQL - More queries](./0x0E-SQL_more_queries) | Joins, unions, advanced queries |
 		
 ## Credits
 
