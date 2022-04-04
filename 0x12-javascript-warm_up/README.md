@@ -17,7 +17,6 @@ This project contains some tasks for learning the basics of **JavaScript**.
   >
 </p>
 
-
 ## Table of Contents
 * [About](#about)
 * [Resources](#resources-books)
@@ -424,8 +423,9 @@ $ ./100-main.js
 333
 $ 
 ```
-**Hint**: Scope
-This exercise doesn’t pass `semistandard` so don’t worry about it.
++ **Hint**: Scope
++ This exercise doesn’t pass `semistandard` so don’t worry about it.
+
 ---
 
 + [x] 15\. **Call me Moby**
