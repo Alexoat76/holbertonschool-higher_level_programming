@@ -1,6 +1,10 @@
 <p align="center">
-<img src="https://img.shields.io/badge/Made%20with-Python-blue.svg"/>
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/Python-blue.svg"/>
 <img src="https://img.shields.io/badge/SQL-blue.svg"/>
+<img src="https://img.shields.io/badge/JavaScript-yellow.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-higher_level_programming"/>
 <img src="https://img.shields.io/github/languages/code-size/Alexoat76/holbertonschool-higher_level_programming.svg"/>
