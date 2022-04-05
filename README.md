@@ -12,7 +12,7 @@
 # High Level Programming
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain my programming projects written in C and Python3 programming language. for the
+Thank you for visiting this repository which contain my programming projects written in `Python3`, `SQL` and `JavaScipt` programming language. for the
 **High Level Programming** curriculum at Holberton School.
 
 ![Prog](http://content.timesjobs.com/img/75447920/Master.jpg)
@@ -99,22 +99,24 @@ The projects in this repository cover:
 ## Projects 
 
 | Project | Description |
-| :--- | :--- |
-| [0x00. Python - Hello, World](./0x00-python-hello_world) | An introduction to Python  |
-| [0x01. Python - If, Else, Loops Functions](./0x01-python-if_else_loops_functions) | Loops and Conditionals  |
-| [0x02. Python - Import & modules](./0x02-python-import_modules) | Importing and using functions and creating modules in Python  |
-| [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures) | Python sequences: lists, tuples  |
-| [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures) | Sets, dictionaries, lambda expressions |
-| [0x05. Python - Exceptions](./0x05-python-exceptions) | Handling errors and exceptions |
-| [0x06. Python - Classes and Objects](./0x06-python-classes) | Introduction to Object Oriented Programming |
-| [0x07. Python - Test driven development](./0x07-python-test_driven_development) | Doctests and Unittests Libraries |
-| [0x08. Python - More Classes and Objects](./0x08-python-more_classes) | Public, private, class, static methods |
-| [0x09. Python - Everything is object](./0x09-python-everything_is_object) | Mutable objects vs immutable objects |
-| [0x0A. Python - Inheritance](./0x0A-python-inheritance) | Child classes, super classes, base classes |
-| [0x0B. Python - Input / Output](./0x0B-python-input_output) | Open, read, write files |
-| [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle) | Args/kwargs, serialization, JSON |
-| [0x0D. SQL - Introduction](./0x0D-SQL_introduction) | MySQL tables and basic queries |
-| [0x0E. SQL - More queries](./0x0E-SQL_more_queries) | Joins, unions, advanced queries |
+| -----------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| **[0x00. Python - Hello, World](./0x00-python-hello_world)**                                   | An introduction to Python                                   |
+| **[0x01. Python - If, Else, Loops Functions](./0x01-python-if_else_loops_functions)**          | Loops and Conditionals                                      |
+| **[0x02. Python - Import & modules](./0x02-python-import_modules)**                            | Importing and using functions and creating modules in Python|
+| **[0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)**             | Python sequences: lists, tuples                             |
+| **[0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)** | Sets, dictionaries, lambda expressions                      |
+| **[0x05. Python - Exceptions](./0x05-python-exceptions)**                                      | Handling errors and exceptions                              |
+| **[0x06. Python - Classes and Objects](./0x06-python-classes)**                                | Introduction to Object Oriented Programming                 |
+| **[0x07. Python - Test driven development](./0x07-python-test_driven_development)**            | Doctests and Unittests Libraries                            |
+| **[0x08. Python - More Classes and Objects](./0x08-python-more_classes)**                      | Public, private, class, static methods                      |
+| **[0x09. Python - Everything is object](./0x09-python-everything_is_object)**                  | Mutable objects vs immutable objects                        |
+| **[0x0A. Python - Inheritance](./0x0A-python-inheritance)**                                    | Child classes, super classes, base classes                  |
+| **[0x0B. Python - Input / Output](./0x0B-python-input_output)**                                | Open, read, write files                                     |
+| **[0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)**                            | Args/kwargs, serialization, JSON                            |
+| **[0x0D. SQL - Introduction](./0x0D-SQL_introduction)**                                        | MySQL tables and basic queries                              |
+| **[0x0E. SQL - More queries](./0x0E-SQL_more_queries)**                                        | Joins, unions, advanced queries                             |
+| **[0x12. Javascript - Warm Up](./0x12-javascript-warm_up)**                                    | Introduction to NodeJS                                      |
+| **[0x13. Javascript - Objects, Scropes, Closures](./0x13-javascript_objects_scopes_closures)** | Global and lexical scopes in JS                             |
 		
 ## Credits
 
