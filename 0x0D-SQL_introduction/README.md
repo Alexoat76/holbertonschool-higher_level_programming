@@ -1,5 +1,8 @@
 <p align="center">
-<img src="https://img.shields.io/badge/Made%20with-SQL-blue.svg"/>
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>	
+<img src="https://img.shields.io/badge/SQL-blue.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 </p>
 	
