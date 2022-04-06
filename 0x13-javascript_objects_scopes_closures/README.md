@@ -348,6 +348,61 @@ $
 ```
 ---
 
++ [x] 11\. **Factor index**
+
++ **[100-map.js](./100-map.js)**
+
+* Write a script that imports an array and computes a new array.
+	* The script must import `list` from the file `100-data.js` 
+	* Use a `map`. **[Tips](https://intranet.hbtn.io/rltoken/aWmgrzMUMiiuFI_ivcgfKw)**
+
+	* A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
+	* Print both the initial list and the new list
+
+```bash
+$ ./100-map.js 
+[ 1, 2, 3, 4, 5 ]
+[ 0, 2, 6, 12, 20 ]
+$ 
+```
+---
+
++ [x] 12\. **Sorted occurences**
+
++ **[101-sorted.js](./101-sorted.js)**
+
+* Write a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
+	* Your script must import `dict` from the file `101-data.js` 
+	* In the new dictionary:
+		* A key is a number of occurrences
+		* A value is the list of user ids
+	* Print the new dictionary at the end
+
+```bash
+$ ./101-sorted.js 
+{ '1': [ '89', '91', '93' ], '2': [ '90', '94' ], '3': [ '92' ] }
+$ 
+```
+---
+
++ [x] 13\. **Concat files**
+
++ **[102-concat.js](./102-concat.js)**
+
+* Write a script that concats 2 files.
+	* The first argument is the file path of the first source file
+	* The second argument is the file path of the second source file
+	* The third argument is the file path of the destination
+
+```bash
+$ ./102-concat.js fileA fileB fileC
+$ cat fileC
+C is fun!
+Python is Cool!!!
+$ 
+```
+---
+
 ## Credits
 
 ## Author(s):blue_book:
