@@ -7,9 +7,9 @@
 </p>
 
 ---
-# 0x12. JavaScript - Warm up
+# Javascript - Objects, Scopes and Closures
 
-This project contains some tasks for learning the basics of **JavaScript**.
+This project contains some tasks for learning about `objects`, `scopes`, and `closures` in **JavaScript**.
 
 <p align="center">
   <img width="250"  
@@ -27,7 +27,7 @@ This project contains some tasks for learning the basics of **JavaScript**.
 
 ## About
 	
-The project contains some tasks for learning about `objects`, `scopes`, and `closures` in **JavaScript**.
+The project contains some tasks about how to use Javascript with regards to: objects, classes, super, extends, prototypes, inheritance, and closures.
 
 ## Resources :books:
 Read or watch:
