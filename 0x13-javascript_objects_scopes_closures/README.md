@@ -12,7 +12,7 @@
 This project contains some tasks for learning about `objects`, `scopes`, and `closures` in **JavaScript**.
 
 <p align="center">
-  <img width="250"  
+  <img width="200"  
         src="https://amudhanbala.com/images/javascript/understanding-scope-and-closure-in-javascript/scopeclosure.png"
   >
 </p>
@@ -97,6 +97,255 @@ $ sudo apt-get install -y nodejs`
 
 ## Tasks
 
++ [x] 0\. **Rectangle #0**
+
++ **[0-rectangle.js](./0-rectangle.js)**
+
+* Write an empty class `Rectangle` that defines a rectangle:
+	* Use the `class` notation for defining your class
+ 
+```bash
+$ ./0-main.js
+Rectangle {}
+[Class: Rectangle]
+$ 
+```
+---
+ 
++ [x] 1\. **Rectangle #1**
+
++ **[1-rectangle.js](./1-rectangle.js)**
+
+* Write a class `Rectangle` that defines a rectangle:
+	* Use the `class` notation for defining your class
+	* The constructor must take 2 arguments `w` and `h` 
+	* Initialize the instance attribute `width` with the value of `w` 
+	* Initialize the instance attribute `height` with the value of `h`
+
+```bash
+$ ./1-main.js
+Rectangle { width: 2, height: 3 }
+2
+3
+Rectangle { width: 2, height: -3 }
+2
+-3
+Rectangle { width: 2, height: undefined }
+2
+undefined
+$ 
+```
+---
+ 
++ [x] 1\. **Rectangle #2**
+
++ **[2-rectangle.js](./2-rectangle.js)**
+
+* Write a class `Rectangle` that defines a rectangle:
+	* Use the `class` notation for defining your class
+	* The constructor must take 2 arguments `w` and `h` 
+	* Initialize the instance attribute `width` with the value of `w` 
+	* Initialize the instance attribute `height` with the value of `h` 
+	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
+
+```bash
+$ ./2-main.js
+Rectangle { width: 2, height: 3 }
+2
+3
+Rectangle {}
+undefined
+undefined
+Rectangle {}
+undefined
+undefined
+Rectangle {}
+undefined
+undefined
+$ 
+```
+---
+
++ [x] 3\. **Rectangle #3**
+
++ **[3-rectangle.js](./3-rectangle.js)**
+
+* Write a class `Rectangle` that defines a rectangle:
+	* Use the `class` notation for defining your class
+	* The constructor must take 2 arguments: `w` and `h` 
+	* Initialize the instance attribute `width` with the value of `w` 
+	* Initialize the instance attribute `height` with the value of `h` 
+	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
+	* Create an instance method called `print()` that prints the rectangle using the character `X`
+ 
+```bash
+$ ./3-main.js
+XX
+XX
+XX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+$ 
+```
+---
+
++ [x] 4\. **Rectangle #4**
+
++ **[4-rectangle.js](./4-rectangle.js)**
+
+* Write a class `Rectangle` that defines a rectangle:
+	* Use the `class` notation for defining your class
+	* The constructor must take 2 arguments: `w` and `h` 
+	* Initialize the instance attribute `width` with the value of `w` 
+	* Initialize the instance attribute `height` with the value of `h` 
+	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
+	* Create an instance method called `print()` that prints the rectangle using the character `X` 
+	* Create an instance method called `rotate()` that exchanges the `width` and the `height` of the rectangle
+	* Create an instance method called `double()` that multiples the `width` and the `height` of the rectangle by 2
+
+```bash
+$ ./4-main.js
+Normal:
+XX
+XX
+XX
+Double:
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+Rotate:
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+$ 
+```
+---
+ 
++ [x] 5\. **Square #0**
+
++ **[5-square.js](./5-square.js)**
+
+* Write a class `Square` that defines a square and inherits from  `Rectangle` of `4-rectangle.js`:
+	* Use the `class` notation for defining your class and `extends` 
+	* The constructor must take 1 argument: `size` 
+	* The constructor of `Rectangle` must be called (by using `super()`)
+
+```bash
+$ ./5-main.js
+XXXX
+XXXX
+XXXX
+XXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+$ 
+```
+---
+
++ [x] 6\. **Square #1**
+
++ **[6-square.js](./6-square.js)**
+
+* Write a class `Square` that defines a square and inherits from `Rectangle` of `4-rectangle.js`:
+	* Use the `class` notation for defining your class and `extends` 
+	* Create an instance method called `charPrint(c)` that prints the rectangle using the character `c` 
+		* If `c` is `undefined` , use the character `X` 
+
+```bash
+$ ./6-main.js
+XXXX
+XXXX
+XXXX
+XXXX
+CCCC
+CCCC
+CCCC
+CCCC
+$ 
+```
+---
+ 
++ [x] 7\. **Occurrences**
+
++ **[7-occurrences.js](./7-occurrences.js)**
+
+* Write a function that returns the number of occurrences in a list:
+	* Prototype: `exports.nbOccurences = function (list, searchElement)`
+ 
+```bash
+$ ./7-main.js
+1
+4
+2
+$ 
+```
+---
+ 
++ [x] 8\. **Esrever**
+
++ **[8-esrever.js](./8-esrever.js)**
+
+* Write a function that returns the reversed version of a list:
+	* Prototype: `exports.esrever = function (list)` 
+	* You are not allow to use the built-in method `reverse`
+ 
+```bash
+$ ./8-main.js
+[ 5, 4, 3, 2, 1 ]
+[ 'String', { id: 12 }, 89, 'School' ]
+$ 
+```
+---
+
++ [x] 9\. **Log me**
+
++ **[9-logme.js](./9-logme.js)**
+
+*Write a function that prints the number of arguments already printed and the new argument value. (see example below)
+	* Prototype: `exports.logMe = function (item)` 
+	* Output format: `<number arguments already printed>: <current argument value>`
+
+```bash
+$ ./9-main.js
+0: Hello
+1: Best
+2: School
+$ 
+```
+---
+
++ [x] 10\. **Number conversion**
+
++ **[10-converter.js](./10-converter.js)**
+
+* Write a function that converts a number from base 10 to another base passed as argument:
+	* Prototype: `exports.converter = function (base)` 
+	* Not allowed to import any file
+	* Not allowed to declare any new variable (`var`, `let`, etc..)
+
+```bash
+$ ./10-main.js
+2
+12
+89
+2
+c
+59
+$ 
+```
 ---
 
 ## Credits
