@@ -2,7 +2,6 @@
 # File: 5-save_to_json_file.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a JSON file-writing function."""
 import json
 
