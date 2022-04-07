@@ -17,6 +17,9 @@ This project contains some tasks for learning about `objects`, `scopes`, and `cl
   >
 </p>
 
+# Getting Started :running:	
+<div style="text-align: justify">
+
 ## Table of Contents
 * [About](#about)
 * [Resources](#resources-books)
