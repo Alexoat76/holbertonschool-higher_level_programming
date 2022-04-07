@@ -2,7 +2,6 @@
 # File: 2-append_write.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a file-appending function."""
 
 
