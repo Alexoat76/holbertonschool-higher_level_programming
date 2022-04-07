@@ -2,7 +2,6 @@
 # File: 8-class_to_json.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a Python class-to-JSON function."""
 
 
