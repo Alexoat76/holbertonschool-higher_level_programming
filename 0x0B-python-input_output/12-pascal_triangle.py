@@ -2,7 +2,6 @@
 # File: 12-pascal_triangle.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a Pascal's Triangle function."""
 
 
