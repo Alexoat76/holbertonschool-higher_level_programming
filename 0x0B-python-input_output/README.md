@@ -15,6 +15,12 @@
 In this project, you should to learn, practice file handling in Python. Do you use the builtin with, `open`, and `read` functions with the `json` module to `read` and `write` files and serialize and deserialize objects with `JSON`. 
 
 Don't forget to fully meet the following development requirements.
+
+<p align="center">
+  <img width="300"  
+        src="https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/1-3-IPO-Star-1.gif"
+  >
+</p>
 	
 # Getting Started :running:	
 <div style="text-align: justify">
