@@ -49,31 +49,27 @@ Read or watch:
 	
 ### Python Scripts: :pushpin:
 		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/usr/bin/python3`.
-* A `README.md` file, at the root of the folder of the project, is mandatory.
-* Your code should use the pycodestyle (version 2.7).
-* All your files must be executable.
-* The length of your files will be tested using `wc`.
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
+- All files should end with a new line.
+- The first line of all your files should be exactly `#!/usr/bin/python3`.
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- The code should use the pycodestyle (version 2.7).
+- All files must be executable.
+- The length of files will be tested using `wc`.
 	
 ### Python Test Cases: :pushpin:
 
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files should end with a new line.
-* All your test files should be inside a folder `tests`
-* All your test files should be text files (extension: `.txt`)
-* All your tests should be executed by using this command: `python3 -m doctest ./tests/*`
-* All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
-* All your classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
-* All your functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'`
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files should end with a new line.
+- All test files should be inside a folder `tests`
+- All test files should be text files (extension: `.txt`)
+- All tests should be executed by using this command: `python3 -m doctest ./tests/*`
+- All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+- All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+- All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'`
 	and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
-* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method
 	<div style="text-align: justify">
 	(the length of it will be verified)
 
