@@ -1,8 +1,23 @@
-![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
+<p align="center">
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/Python-blue.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+
+</p>
+
+---
 
 # 0x0C. Python - Almost a circle
 <div style="text-align: justify">
 
+<p align="center">
+  <img width="300"  
+        src="https://c.tenor.com/qJ5evVs-_uUAAAAC/coding.gif"
+  >
+</p>
+	
 In this project, everything learned in Python has been reviewed. Like a:
 
 * Import
@@ -27,16 +42,15 @@ Don't forget to fully meet the following development requirements.
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements)
-* [Files](#files-heavy_check_mark)
-* [Tasks](#tasks-page_with_curl)
+* [Files](#files-file_folder)
+* [Tasks](#tasks)
 * [Credits](#credits)
 
+## About
+This repository holds **`unittests`** for some classes with inheritance		
 	
-## Requirements 
-
-### Resources
-
-**Read or watch** :
+## Resources :books:
+Read or watch:
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=programing+in+python&hl=es&ei=bUHBYY7XBrCNwbkP15C0qAk&oq=programing+in+py&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQhBdYjxxg4C1oAnACeACAAbUBiAGsApIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz)
 
@@ -48,54 +62,57 @@ Don't forget to fully meet the following development requirements.
 * [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 
 	
-## General :page_with_curl:
-<div style="text-align: justify">
-	
+## Requirements	
+### General
+
 ### Python Scripts: :pushpin:
 		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/usr/bin/python3`.
-* A `README.md` file, at the root of the folder of the project, is mandatory.
-* Your code should use the pycodestyle (version 2.7).
-* All your files must be executable.
-* The length of your files will be tested using `wc`.
-* All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
-* All your classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
-* All your functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'`
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
+- All files should end with a new line.
+- The first line of all your files should be exactly `#!/usr/bin/python3`.
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- Your code should use the pycodestyle (version 2.7).
+- All files must be executable.
+- The length of your files will be tested using `wc`.
+- All modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+- All classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+- All functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)'`
 	and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
-* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method
 	<div style="text-align: justify">
 	(the length of it will be verified)	
 
 ### Python Unit Tests: :pushpin:
 
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All *files should end with a new line.
+- All *test files should be inside a folder `tests`
+- Use the **[unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)**
+- All test files should be python files (extension: `.py`)
+- All test files and folders should start with `test_`
+- The file organization in the tests folder should be the same as your project: ex: for `models/base.py`, unit tests must be in: `tests/test_models/test_base.py`
+- All tests should be executed by using this command: `python3 -m unittest discover tests`
+- Also test file by file by using this command: `python3 -m unittest tests/test_models/test_base.py`
 
-* All your files should end with a new line.
-* All your test files should be inside a folder `tests`
-* You have to use the [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
-* All your test files should be python files (extension: `.py`)
-* All your test files and folders should start with `test_`
-* Your file organization in the tests folder should be the same as your project: ex: for `models/base.py`, unit tests must be in: `tests/test_models/test_base.py`
-* All your tests should be executed by using this command: `python3 -m unittest discover tests`
-* You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base.py`
-
+## More Info
 	
-## Files :heavy_check_mark:		
+### Installation :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-higher_level_programming.git`	
+- Access to directory: `cd 0x0C-python-almost_a_circle`
+- `Compile` accord to `instructions` of each task.	
 
-* [tests/test_models](./tests/test_models): Folder containing the following
+## Files :file_folder:		
+
++ **[tests/test_models](./tests/test_models)**: Folder containing the following
 independently-developed test files:
-  * [test_base.py](./tests/test_models/test_base.py)
-  * [test_rectangle.py](./tests/test_models/test_rectangle.py)
-  * [test_square.py](./tests/test_models/test_square.py)	
-* [main files](./main_files): Folder of main files. Provided by Holberton School.
+  - **[test_base.py](./tests/test_models/test_base.py)**
+  - **[test_rectangle.py](./tests/test_models/test_rectangle.py)**
+  - **[test_square.py](./tests/test_models/test_square.py)**	
+- **[main files](./main_files)**: Folder of main files. Provided by Holberton School.
 	
-## Tasks :page_with_curl:
+## Tasks
 
 ### Base :pushpin:
 	
@@ -147,7 +164,8 @@ instantiated from a CSV file.
   objects to print.
   * The parameter `list_squares` is expected to be a list of `Square` objects
   to print.
-
+---
+		
 ### Rectangle :pushpin:
 
 Represents a rectangle. Inherits from `Base` with:
@@ -181,7 +199,8 @@ of a `Rectangle` with the given attributes.
   * `**kwargs` is skipped if `*args` exists.
 * Public method `def to_dictionary(self):` that returns the dictionary
 representation of a `Rectangle` instance.
-
+---
+		
 ### Square :pushpin:
 
 Represents a square. Inherits from `Rectangle` with:
@@ -204,6 +223,8 @@ of a `Square` with the given attributes.
 * Public method `def to_dictionary(self):` that returns the dictionary
 representation of a `Square`.
 		
+---
+
 ## Credits
 
 ## Author(s):blue_book:
@@ -217,7 +238,6 @@ Work is owned and maintained by
 [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
 
-
 ## Acknowledgments :mega: 
 
 ### **`Holberton School`** (*providing guidance*)
@@ -226,3 +246,4 @@ This program was written as part of the curriculum for Holberton School.
 Holberton School is a campus-based full-stack software engineering program
 that prepares students for careers in the tech industry using project-based
 peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
