@@ -16,7 +16,7 @@
 # High Level Programming
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain my programming projects written in `Python3`, `SQL` and `JavaScript` programming language. for the
+Thank you for visiting this repository which contain my programming projects written in `C`, `Python3`, `SQL` and `JavaScript` programming language. for the
 **High Level Programming** curriculum at Holberton School.
 
 <p align="center">
@@ -113,7 +113,9 @@ The projects in this repository cover:
 | **[0x0E. SQL - More queries](./0x0E-SQL_more_queries)**                                        | Joins, unions, advanced queries                             |
 | **[0x12. Javascript - Warm Up](./0x12-javascript-warm_up)**                                    | Introduction to NodeJS                                      |
 | **[0x13. Javascript - Objects, Scropes, Closures](./0x13-javascript_objects_scopes_closures)** | Global and lexical scopes in JS                             |
-		
+
+---
+	
 ## Credits
 
 ## Author(s):blue_book:
