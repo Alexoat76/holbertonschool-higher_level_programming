@@ -2,7 +2,6 @@
 # File: 4-from_json_string.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a JSON-to-object function."""
 import json
 
