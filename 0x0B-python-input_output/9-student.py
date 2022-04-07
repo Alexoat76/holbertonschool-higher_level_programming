@@ -2,7 +2,6 @@
 # File: 9-student.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a class Student."""
 
 
