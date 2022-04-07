@@ -1,4 +1,13 @@
-![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
+<p align="center">
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/Python-blue.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+
+</p>
+
+---
 
 # 0x0B. Python - Input/Output
 <div style="text-align: justify">
@@ -9,20 +18,19 @@ Don't forget to fully meet the following development requirements.
 	
 # Getting Started :running:	
 <div style="text-align: justify">
-	
-## Table of Contents :clipboard:
 
+## Table of Contents
+* [About](#about)
+* [Resources](#resources-books)
 * [Requirements](#requirements)
-* [Files](#files-heavy_check_mark)
-* [Tasks](#tasks-page_with_curl)
+* [Files](#files-file_folder)
+* [Tasks](#tasks)
 * [Credits](#credits)
 
+## About
 	
-## Requirements 
-
-### Resources
-
-**Read or watch** :
+## Resources :books:
+Read or watch:
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=programing+in+python&hl=es&ei=bUHBYY7XBrCNwbkP15C0qAk&oq=programing+in+py&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQhBdYjxxg4C1oAnACeACAAbUBiAGsApIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz)
 
@@ -36,8 +44,8 @@ Don't forget to fully meet the following development requirements.
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)(ch. 8 p 180-183 and ch. 14 p 326-333)
 
 	
-## General :page_with_curl:
-<div style="text-align: justify">
+## Requirements
+### General
 	
 ### Python Scripts: :pushpin:
 		
@@ -70,7 +78,15 @@ Don't forget to fully meet the following development requirements.
 	(the length of it will be verified)
 
 	
-## Files :heavy_check_mark:
+## More Info
+	
+### Installation :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-higher_level_programming.git`	
+- Access to directory: `cd 0x0B-python-input_output`
+- `Compile` accord to `instructions` of each task.	
+
+## Files :file_folder:
 		
 Prototypes and functions written in this project:
 
@@ -92,7 +108,7 @@ Prototypes and functions written in this project:
 		
 * [tests](./tests): Folder of main files. Provided by Holberton School.
 	
-## Tasks :page_with_curl:
+## Tasks
 
 * **0. Read file**
   * [0-read_file.py](./0-read_file.py): Python function that prints the contents of a UTF8 text
