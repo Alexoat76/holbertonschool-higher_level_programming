@@ -16,10 +16,14 @@
 # High Level Programming
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain my programming projects written in `Python3`, `SQL` and `JavaScipt` programming language. for the
+Thank you for visiting this repository which contain my programming projects written in `Python3`, `SQL` and `JavaScript` programming language. for the
 **High Level Programming** curriculum at Holberton School.
 
-![Prog](http://content.timesjobs.com/img/75447920/Master.jpg)
+<p align="center">
+  <img width="600"  
+        src="https://c.tenor.com/qJ5evVs-_uUAAAAC/coding.gif"
+  >
+</p>	
 	
 # Getting Started :running:	
 <div style="text-align: justify">
@@ -29,7 +33,6 @@ Thank you for visiting this repository which contain my programming projects wri
 * [Requirements](#requirements)
 * [Projects](#projects)
 * [Credits](#credits)
-
 	
 ## About
 The projects in this repository cover:
@@ -55,49 +58,38 @@ The projects in this repository cover:
 	
 ### Python Scripts: :pushpin:
 		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/usr/bin/python3`.
-* A `README.md` file at the root of the repo, containing a description of the repository.
-* A `README.md` file, at the root of the folder of this project, is mandatory.
-* Your code should use the pycodestyle (version 2.7).
-* All your files must be executable.
-* The length of your files will be tested using `wc`.
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3`.
+- All files should end with a new line.
+- The first line of all your files should be exactly `#!/usr/bin/python3`.
+- A `README.md` file at the root of the repo, containing a description of the repository.
+- A `README.md` file, at the root of the folder of this project, is mandatory.
+- The code should use the pycodestyle (version 2.7).
+- All files must be executable.
+- The length of your files will be tested using `wc`.
 	
 ### Shell Scripts: :pushpin:
 	
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-	
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
-* All your scripts should be exactly two lines long (`wc -l` file should print 2)
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/bin/bash`.
-* All your files must be executable.
+- Allowed editors: `vi`, `vim`, `emacs`.	
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
+- All scripts should be exactly two lines long (`wc -l` file should print 2)
+- All files should end with a new line.
+- The first line of all your files should be exactly `#!/bin/bash`.
+- All files must be executable.
 	
 ### C Scripts: :pushpin:
 		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using using gcc, using the options.
-	`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
-	* All your files should end with a new line.
-	* Your code should use the `Betty`. 
-	It will be checked using `betty-style.pl` and `betty-doc.pl`.</div>
-	
-		* Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
-		* You are not allowed to use global variables.
-		* No more than 5 functions per file.
-	<div style="text-align: justify">
-		
-	* In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples.
-		
-	* The prototypes of all your functions should be included in your header file called `lists.h`.
-	* All your header files should be include guarded.
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS` using using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`.
+- All files should end with a new line.
+- The code should use the `Betty`. 
+- It will be checked using `betty-style.pl` and `betty-doc.pl`.
+- Please visit the **[Betty style](https://github.com/holbertonschool/Betty/wiki)** for the full specifications of Betty coding and documentation styles.
+- Not allowed to use global variables.
+- No more than 5 functions per file.
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples.	
+- The prototypes of all your functions should be included in your header file called `lists.h`.
+- All header files should be include guarded.
 
 	
 ## Projects 
