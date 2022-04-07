@@ -2,7 +2,6 @@
 # File: 7-add_item.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Script add all arguments to a Python list and save them to a file."""
 import sys
 
