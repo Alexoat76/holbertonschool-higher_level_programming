@@ -2,7 +2,6 @@
 # File: 1-write_file.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a file-writing function."""
 
 
