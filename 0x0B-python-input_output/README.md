@@ -34,6 +34,7 @@ Don't forget to fully meet the following development requirements.
 * [Credits](#credits)
 
 ## About
+This repository holds code that illustrates an essential concept of programming, specific to the Python programming language: `opening` files and `safely` closing them using "with", `writing` and `appending`, `reading` entire file versus reading by lines, and `importing` and utilizing `json`	
 	
 ## Resources :books:
 Read or watch:
