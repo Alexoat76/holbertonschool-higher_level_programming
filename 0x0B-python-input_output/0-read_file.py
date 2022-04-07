@@ -2,7 +2,6 @@
 # File: 0-read_file.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """This Module defines a text file-reading function."""
 
 
