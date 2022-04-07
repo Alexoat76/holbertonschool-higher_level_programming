@@ -181,7 +181,8 @@ Prototypes and functions written in this project:
   * [100-append_after.py](./100-append_after.py): Python function that inserts a line of text to a
   file after each line containing a specified string.
 
-		
+---
+
 ## Credits
 
 ## Author(s):blue_book:
@@ -195,7 +196,6 @@ Work is owned and maintained by
 [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
 
-
 ## Acknowledgments :mega: 
 
 ### **`Holberton School`** (*providing guidance*)
@@ -204,3 +204,4 @@ This program was written as part of the curriculum for Holberton School.
 Holberton School is a campus-based full-stack software engineering program
 that prepares students for careers in the tech industry using project-based
 peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
