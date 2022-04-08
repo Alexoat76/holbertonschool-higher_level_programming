@@ -87,7 +87,6 @@ Read or watch:
 	
 ## Files :file_folder:
 
-* [main_files](./main_files): Folder of main files. Provided by Holberton School.
 
 		
 | File                    | Prototype                             |
@@ -97,7 +96,11 @@ Read or watch:
 | `2-is_same_class.py`    | `def is_same_class(obj, a_class):`    |
 | `3-is_kind_of_class.py` | `def is_kind_of_class(obj, a_class):` |
 | `4-inherits_from.py`    | `def inherits_from(obj, a_class):`    |
+
+## Test :heavy_check_mark:		
 		
+* [tests](./tests): Folder of main files. Provided by Holberton School.	
+	
 ## Tasks
 
 + [x] 0\. **Lookup**
