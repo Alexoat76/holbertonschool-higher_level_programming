@@ -15,7 +15,12 @@
 In this project, you should to learn and practice about Python class `inheritance` and recognize the differences 
 	between **`super-`** and **`sub-classes`**.
 
-	
+<p align="center">
+  <img width="600"  
+        src="https://tudip.com/wp-content/uploads/2019/09/Blog-Header-Inheritance-in-Python-1900x600-1900x600.jpg"
+  >
+</p>
+		
 # Getting Started :running:	
 <div style="text-align: justify">
 	
