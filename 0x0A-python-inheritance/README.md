@@ -48,7 +48,6 @@ Read or watch:
 * [Inheritance in Python](https://hub.packtpub.com/inheritance-python/)
 * [Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
-
 ## Requirements
 ### General
 	
@@ -86,9 +85,9 @@ Read or watch:
 - `Compile` accord to `instructions` of each task.
 	
 ## Files :file_folder:
-
-
-		
+	
+Prototypes and functions for this project:
+	
 | File                    | Prototype                             |
 | ----------------------- | ------------------------------------- |
 | `0-lookup.py`           | `def lookup(obj):`                    |
@@ -251,11 +250,7 @@ Builds on [10-square.py](./10-square.py) with:
 + **[101-add_attribute.py](./101-add_attribute.py)** 
 	* Python function that adds a new attribute to an object if possible.
     * If an attribute cannot be added, a `TypeError` exception is raised with the message `can't add new attribute`.			
-			
-			
-			
-			
-			
+						
 ---
 ## Credits
 
