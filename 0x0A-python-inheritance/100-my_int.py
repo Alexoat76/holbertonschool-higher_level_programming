@@ -2,7 +2,6 @@
 # File: 10-square.py
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
-
 """
 A module containing a rebel integer.
 """
