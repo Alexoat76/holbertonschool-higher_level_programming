@@ -8,13 +8,15 @@
 
 ---
 
-# Javascript - Objects, Scopes and Closures
+# 0x14. JavaScript - Web scraping
 
-This project contains some tasks for learning about `objects`, `scopes`, and `closures` in **JavaScript**.
+This project contains some tasks for learning how to use  *`file I/O`*  on  **`Node.js`**  and using the  **NPM**  request
+framework to interact with the  **[Star Wars](https://swapi.co/)**,  **[JSONplaceholder](https://jsonplaceholder.typicode.com)**,  and
+**[Twitter](https://developer.twitter.com/en/docs/api-reference-index)** API's in *`JavaScript`*.
 
 <p align="center">
-  <img width="200"  
-        src="https://amudhanbala.com/images/javascript/understanding-scope-and-closure-in-javascript/scopeclosure.png"
+  <img width="500"  
+        src="https://soyhorizonte.com/wp-content/uploads/2020/10/JS-by-SoyHorizonte.gif"
   >
 </p>
 
@@ -31,26 +33,19 @@ This project contains some tasks for learning about `objects`, `scopes`, and `cl
 
 ## About
 	
-The project contains some tasks about how to use Javascript with regards to: objects, classes, super, extends, prototypes, inheritance, and closures.
+The project shows how to use *`Javascript`* and the request module to `read` url text content and gather data from `API's`.
 
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=javascript+objects+scopes+closures&oq=javascript+objects+scopes+closures&aqs=chrome..69i57j69i60j69i61.10327j0j15&sourceid=chrome&ie=UTF-8)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=JavaScript+Web+scraping&bih=682&biw=1274&hl=en&ei=O0tUYpa3IOLrxgHa66mIBA&ved=0ahUKEwjWwNTHq4z3AhXitTEKHdp1CkEQ4dUDCA4&uact=5&oq=JavaScript+Web+scraping&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoGCAAQBxAeSgQIQRgASgQIRhgAUNgGWPgKYJIeaAFwAXgAgAGEAYgB4AKSAQMwLjOYAQCgAQHIAQjAAQE&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=javascript+objects+scopes+closures)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=JavaScript+Web+scraping)
 
-- [JavaScript object basics](https://intranet.hbtn.io/rltoken/OJ4pU6uHwfCrAclbZsk_Hg) 
-- [Object-oriented JavaScript](https://intranet.hbtn.io/rltoken/vLr7QS9h4-nGFKVn5vsrvQ) 
- (read all examples!)
-- [Class - ES6](https://intranet.hbtn.io/rltoken/zMWxOmGWEsOCldCKeDswCA) 
-- [super - ES6](https://intranet.hbtn.io/rltoken/DTMKogwFYEgUnpLrNvTcfQ) 
-- [extends - ES6](https://intranet.hbtn.io/rltoken/fh2JHfNNa-HLnmfSdOo9TA) 
-- [Object prototypes](https://intranet.hbtn.io/rltoken/lrlwnQMM82RimJJcfLao5w) 
-- [Inheritance in JavaScript](https://intranet.hbtn.io/rltoken/vLr7QS9h4-nGFKVn5vsrvQ) 
-- [Closures](https://intranet.hbtn.io/rltoken/qDa7F8060Jlhe3DZZitY4A) 
-- [this/self](https://intranet.hbtn.io/rltoken/ockP7FQKKmTRvfeAHw-XSw) 
-- [Modern JS](https://intranet.hbtn.io/rltoken/22mdHf9KeFhRQrLP-e1hPw) 
+- [Working with JSON data](https://intranet.hbtn.io/rltoken/RmDpb2gJfPrMar05QdxYvw) 
+- [The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://intranet.hbtn.io/rltoken/ibqGcS_YNbtWO8nPIlM2Ug) 
+- [request module](https://intranet.hbtn.io/rltoken/9L4UYvlIwDVDoObD7zpJZQ) 
+- [Modern JS](https://intranet.hbtn.io/rltoken/Zf5LCjoTEuIXWWxoH_dGVQ)  
  
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
 
@@ -76,23 +71,20 @@ $ sudo apt-get install -y nodejs`
 
  `$ sudo npm install semistandard --global` 
 
+### Install request module and use it
+**[Documentation](https://intranet.hbtn.io/rltoken/9L4UYvlIwDVDoObD7zpJZQ)** 
+
+ ` $ sudo npm install request --global `
+	
+ ` $ export NODE_PATH=/usr/lib/node_modules`	
+	
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-higher_level_programming.git`	
-- Access to directory: `cd 0x13-javascript_objects_scopes_closures`
+- Access to directory: `cd 0x14-javascript-web_scraping`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
-
-+ **Prototypes** for all functions written for the project.
-	
-| File               | Prototype                                               |
-| ------------------ | ------------------------------------------------------- |
-| `7-occurrences.js` | `exports.nbOccurences = function (list, searchElement)` |
-| `8-esrever.js`     | `exports.esrever = function (list)`                     |
-| `9-logme.js`       | `exports.logMe = function (item)`                       |
-| `10-converter.js`  | `exports.converter = function (base)`                   |
-
 ### Tests :heavy_check_mark:
 
 + **[tests](./tests)**: Folder of test files. Provided by Holberton School.
@@ -100,311 +92,241 @@ $ sudo apt-get install -y nodejs`
 ---
 
 ## Tasks
+	
++ [x] 0\. **Readme**
 
-+ [x] 0\. **Rectangle #0**
++ **[0-readme.js](./0-readme.js)**
 
-+ **[0-rectangle.js](./0-rectangle.js)**
+* Write a script that reads and prints the content of a file.
+	* The first argument is the file path
+	* The content of the file must be read in `utf-8` 
+	* If an error occurred during the reading, print the error object
 
-* Write an empty class `Rectangle` that defines a rectangle:
-	* Use the `class` notation for defining your class
- 
 ```bash
-$ ./0-main.js
-Rectangle {}
-[Class: Rectangle]
+$ ./0-readme.js cisfun
+C is super fun!
+
+$ ./0-readme.js doesntexist
+{ Error: ENOENT: no such file or directory, open 'doesntexist'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'doesntexist' }
 $ 
 ```
 ---
- 
-+ [x] 1\. **Rectangle #1**
 
-+ **[1-rectangle.js](./1-rectangle.js)**
++ [x] 1\. **Write me**
 
-* Write a class `Rectangle` that defines a rectangle:
-	* Use the `class` notation for defining your class
-	* The constructor must take 2 arguments `w` and `h` 
-	* Initialize the instance attribute `width` with the value of `w` 
-	* Initialize the instance attribute `height` with the value of `h`
++ **[1-writeme.js](./1-writeme.js)**
+
+* Write a script that writes a string to a file.
+	* The first argument is the file path
+	* The second argument is the string to write
+	* The content of the file must be written in `utf-8` 
+	* If an error occurred during while writing, print the error object
 
 ```bash
-$ ./1-main.js
-Rectangle { width: 2, height: 3 }
-2
+$ ./1-writeme.js my_file.txt "Python is cool"
+$ cat my_file.txt ; echo ""
+Python is cool
+$ 
+```
+---
+
++ [x] 2\. **Status code**
+
++ **[2-statuscode.js](./2-statuscode.js)**
+
+* Write a script that display the status code of a `GET` request.
+	* The first argument is the URL to request (`GET`)
+	* The status code must be printed like this: `code: <status code>` 
+	* Use the module `request`
+ 
+```bash
+$ ./2-statuscode.js https://intranet.hbtn.io/status
+code: 200
+$ ./2-statuscode.js https://intranet.hbtn.io/doesnt_exist
+code: 404
+$ 
+```
+---
+
++ [x] 3\. **Star wars movie title**
+
++ **[3-starwars_title.js](./3-starwars_title.js)**
+
+* Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
+	* The first argument is the movie ID
+	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
+ 	with the endpoint `https://swapi-api.hbtn.io/api/films/:id` 
+	* Use the module `request`
+
+```bash
+$ ./3-starwars_title.js 1
+A New Hope
+$ ./3-starwars_title.js 5
+Attack of the Clones
+$ 
+```
+---
+
++ [x] 4\. **Star wars Wedge Antilles**
+
++ **[4-starwars_count.js](./4-starwars_count.js)**
+
+* Write a script that prints the number of movies where the character “Wedge Antilles” is present.
+	* The first argument is the API URL of the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
+	:  ` https://swapi-api.hbtn.io/api/films/ ` 
+	* Wedge Antilles is character ID `18` - your script must use this ID for filtering the result of the API
+	* Use the module `request`
+```bash
+$ ./4-starwars_count.js https://swapi-api.hbtn.io/api/films
 3
-Rectangle { width: 2, height: -3 }
-2
--3
-Rectangle { width: 2, height: undefined }
-2
-undefined
 $ 
+```
+---
+
++ [x] 5\. **Loripsum**
+
++ **[5-request_store.js](./5-request_store.js)**
+
+* Write a script that gets the contents of a webpage and stores it in a file.
+	* The first argument is the URL to request
+	* The second argument the file path to store the body response
+	* The file must be UTF-8 encoded
+	* Use the module `request`
+
+```bash
+
+$ ./5-request_store.js http://loripsum.net/api loripsum
+$ cat loripsum
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Haec quo modo conveniant, non sane 
+intellego. Nam memini etiam quae nolo, oblivisci non possum quae volo. Te enim iudicem aequum puto, 
+modo quae dicat ille bene noris. Terram, mihi crede, ea lanx et maria deprimet. Deinde prima 
+illa, quae in congressu solemus: Quid tu, inquit, huc? Hoc etsi multimodis reprehendi potest, 
+tamen accipio, quod dant. </p>
+
+<p>Ad eos igitur converte te, quaeso. Pudebit te, inquam, illius tabulae, quam Cleanthes sane 
+commode verbis depingere solebat. Sic enim censent, oportunitatis esse beate vivere. Quo studio 
+Aristophanem putamus aetatem in litteris duxisse? Aeque enim contingit omnibus fidibus, ut 
+incontentae sint. Ut aliquid scire se gaudeant? Qui enim existimabit posse se miserum esse 
+beatus non erit. Putabam equidem satis, inquit, me dixisse. </p>
+
+<p>Duo Reges: constructio interrete. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, 
+quid diceret? Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Illud non continuo, 
+ut aeque incontentae. Illa videamus, quae a te de amicitia dicta sunt. At ille pellit, qui permulcet 
+sensum voluptate. Tamen aberramus a proposito, et, ne longius, prorsus, inquam, Piso, si ista mala 
+sunt, placet. </p>
+
+<p>Non enim, si omnia non sequebatur, idcirco non erat ortus illinc. Nos cum te, M. Quem si tenueris, 
+non modo meum Ciceronem, sed etiam me ipsum abducas licebit. Apparet statim, quae sint officia, quae 
+actiones. Ergo instituto veterum, quo etiam Stoici utuntur, hinc capiamus exordium. Eadem nunc mea 
+adversum te oratio est. Quid, si etiam iucunda memoria est praeteritorum malorum? Hoc enim constituto 
+in philosophia constituta sunt omnia. </p>
+$ 
+```
+---
+
++ [x] 6\. **How many completed?**
+
++ **[6-completed_tasks.js](./6-completed_tasks.js)**
+
+* Write a script that computes the number of tasks completed by user id.
+	* The first argument is the API URL: `https://jsonplaceholder.typicode.com/todos` 
+	* Only print users with completed task
+	* Use the module `request`
+ 
+```bash
+$ ./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos
+{ '1': 11,
+  '2': 8,
+  '3': 7,
+  '4': 6,
+  '5': 12,
+  '6': 6,
+  '7': 9,
+  '8': 11,
+  '9': 8,
+  '10': 12 }
+$
 ```
 ---
  
-+ [x] 1\. **Rectangle #2**
++ [x] 7\. **Who was playing in this movie?**
 
-+ **[2-rectangle.js](./2-rectangle.js)**
++ **[100-starwars_characters.js](./100-starwars_characters.js)**
 
-* Write a class `Rectangle` that defines a rectangle:
-	* Use the `class` notation for defining your class
-	* The constructor must take 2 arguments `w` and `h` 
-	* Initialize the instance attribute `width` with the value of `w` 
-	* Initialize the instance attribute `height` with the value of `h` 
-	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
+* Write a script that prints all characters of a Star Wars movie:
+	* The first argument is the Movie ID - example: `3` = “Return of the Jedi” 
+	* Display one character name by line
+	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
+	* Use the module `request`
 
 ```bash
-$ ./2-main.js
-Rectangle { width: 2, height: 3 }
-2
-3
-Rectangle {}
-undefined
-undefined
-Rectangle {}
-undefined
-undefined
-Rectangle {}
-undefined
-undefined
-$ 
+$ ./100-starwars_characters.js 3
+Darth Vader
+R2-D2
+Luke Skywalker
+Han Solo
+Leia Organa
+Chewbacca
+Palpatine
+Obi-Wan Kenobi
+Jabba Desilijic Tiure
+Wedge Antilles
+Yoda
+Boba Fett
+Ackbar
+Arvel Crynyd
+Mon Mothma
+Nien Nunb
+Wicket Systri Warrick
+Bib Fortuna
+C-3PO
+Lando Calrissian
+guillaume@ubuntu:~/0x14$ 
 ```
 ---
 
-+ [x] 3\. **Rectangle #3**
++ [x] 8\. **Right order**
 
-+ **[3-rectangle.js](./3-rectangle.js)**
++ **[101-starwars_characters.js](./101-starwars_characters.js)**
 
-* Write a class `Rectangle` that defines a rectangle:
-	* Use the `class` notation for defining your class
-	* The constructor must take 2 arguments: `w` and `h` 
-	* Initialize the instance attribute `width` with the value of `w` 
-	* Initialize the instance attribute `height` with the value of `h` 
-	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
-	* Create an instance method called `print()` that prints the rectangle using the character `X`
- 
-```bash
-$ ./3-main.js
-XX
-XX
-XX
-XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-$ 
-```
----
-
-+ [x] 4\. **Rectangle #4**
-
-+ **[4-rectangle.js](./4-rectangle.js)**
-
-* Write a class `Rectangle` that defines a rectangle:
-	* Use the `class` notation for defining your class
-	* The constructor must take 2 arguments: `w` and `h` 
-	* Initialize the instance attribute `width` with the value of `w` 
-	* Initialize the instance attribute `height` with the value of `h` 
-	* If `w` or `h` is equal to 0 or not a positive integer, create an empty object
-	* Create an instance method called `print()` that prints the rectangle using the character `X` 
-	* Create an instance method called `rotate()` that exchanges the `width` and the `height` of the rectangle
-	* Create an instance method called `double()` that multiples the `width` and the `height` of the rectangle by 2
+* Write a script that prints all characters of a Star Wars movie:
+	* The first argument is the Movie ID - example: `3` = “Return of the Jedi” 
+	* Display one character name by line in the same order of the list “characters” in the `/films/` response
+	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
+	* Use the module `request`
 
 ```bash
-$ ./4-main.js
-Normal:
-XX
-XX
-XX
-Double:
-XXXX
-XXXX
-XXXX
-XXXX
-XXXX
-XXXX
-Rotate:
-XXXXXX
-XXXXXX
-XXXXXX
-XXXXXX
+
+$ ./101-starwars_characters.js 3
+Luke Skywalker
+C-3PO
+R2-D2
+Darth Vader
+Leia Organa
+Obi-Wan Kenobi
+Chewbacca
+Han Solo
+Jabba Desilijic Tiure
+Wedge Antilles
+Yoda
+Palpatine
+Boba Fett
+Lando Calrissian
+Ackbar
+Mon Mothma
+Arvel Crynyd
+Wicket Systri Warrick
+Nien Nunb
+Bib Fortuna
 $ 
-```
----
- 
-+ [x] 5\. **Square #0**
 
-+ **[5-square.js](./5-square.js)**
-
-* Write a class `Square` that defines a square and inherits from  `Rectangle` of `4-rectangle.js`:
-	* Use the `class` notation for defining your class and `extends` 
-	* The constructor must take 1 argument: `size` 
-	* The constructor of `Rectangle` must be called (by using `super()`)
-
-```bash
-$ ./5-main.js
-XXXX
-XXXX
-XXXX
-XXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-XXXXXXXX
-$ 
-```
----
-
-+ [x] 6\. **Square #1**
-
-+ **[6-square.js](./6-square.js)**
-
-* Write a class `Square` that defines a square and inherits from `Rectangle` of `4-rectangle.js`:
-	* Use the `class` notation for defining your class and `extends` 
-	* Create an instance method called `charPrint(c)` that prints the rectangle using the character `c` 
-		* If `c` is `undefined` , use the character `X` 
-
-```bash
-$ ./6-main.js
-XXXX
-XXXX
-XXXX
-XXXX
-CCCC
-CCCC
-CCCC
-CCCC
-$ 
-```
----
- 
-+ [x] 7\. **Occurrences**
-
-+ **[7-occurrences.js](./7-occurrences.js)**
-
-* Write a function that returns the number of occurrences in a list:
-	* Prototype: `exports.nbOccurences = function (list, searchElement)`
- 
-```bash
-$ ./7-main.js
-1
-4
-2
-$ 
-```
----
- 
-+ [x] 8\. **Esrever**
-
-+ **[8-esrever.js](./8-esrever.js)**
-
-* Write a function that returns the reversed version of a list:
-	* Prototype: `exports.esrever = function (list)` 
-	* You are not allow to use the built-in method `reverse`
- 
-```bash
-$ ./8-main.js
-[ 5, 4, 3, 2, 1 ]
-[ 'String', { id: 12 }, 89, 'School' ]
-$ 
-```
----
-
-+ [x] 9\. **Log me**
-
-+ **[9-logme.js](./9-logme.js)**
-
-*Write a function that prints the number of arguments already printed and the new argument value. (see example below)
-	* Prototype: `exports.logMe = function (item)` 
-	* Output format: `<number arguments already printed>: <current argument value>`
-
-```bash
-$ ./9-main.js
-0: Hello
-1: Best
-2: School
-$ 
-```
----
-
-+ [x] 10\. **Number conversion**
-
-+ **[10-converter.js](./10-converter.js)**
-
-* Write a function that converts a number from base 10 to another base passed as argument:
-	* Prototype: `exports.converter = function (base)` 
-	* Not allowed to import any file
-	* Not allowed to declare any new variable (`var`, `let`, etc..)
-
-```bash
-$ ./10-main.js
-2
-12
-89
-2
-c
-59
-$ 
-```
----
-
-+ [x] 11\. **Factor index**
-
-+ **[100-map.js](./100-map.js)**
-
-* Write a script that imports an array and computes a new array.
-	* The script must import `list` from the file `100-data.js` 
-	* Use a `map`. **[Tips](https://intranet.hbtn.io/rltoken/aWmgrzMUMiiuFI_ivcgfKw)**
-
-	* A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
-	* Print both the initial list and the new list
-
-```bash
-$ ./100-map.js 
-[ 1, 2, 3, 4, 5 ]
-[ 0, 2, 6, 12, 20 ]
-$ 
-```
----
-
-+ [x] 12\. **Sorted occurences**
-
-+ **[101-sorted.js](./101-sorted.js)**
-
-* Write a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
-	* Your script must import `dict` from the file `101-data.js` 
-	* In the new dictionary:
-		* A key is a number of occurrences
-		* A value is the list of user ids
-	* Print the new dictionary at the end
-
-```bash
-$ ./101-sorted.js 
-{ '1': [ '89', '91', '93' ], '2': [ '90', '94' ], '3': [ '92' ] }
-$ 
-```
----
-
-+ [x] 13\. **Concat files**
-
-+ **[102-concat.js](./102-concat.js)**
-
-* Write a script that concats 2 files.
-	* The first argument is the file path of the first source file
-	* The second argument is the file path of the second source file
-	* The third argument is the file path of the destination
-
-```bash
-$ ./102-concat.js fileA fileB fileC
-$ cat fileC
-C is fun!
-Python is Cool!!!
-$ 
-```
+```	
+	
 ---
 
 ## Credits
