@@ -13,7 +13,7 @@
 This project contains some tasks for learning about `objects`, `scopes`, and `closures` in **JavaScript**.
 
 <p align="center">
-  <img width="200"  
+  <img width="250"  
         src="https://amudhanbala.com/images/javascript/understanding-scope-and-closure-in-javascript/scopeclosure.png"
   >
 </p>
