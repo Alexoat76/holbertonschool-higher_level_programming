@@ -7,12 +7,13 @@
 </p>
 
 ---
+
 # 0x12. JavaScript - Warm up
 
 This project contains some tasks for learning the basics of **JavaScript**.
 
 <p align="center">
-  <img width="150"  
+  <img width="180"  
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
   >
 </p>
