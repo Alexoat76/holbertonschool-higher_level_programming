@@ -125,9 +125,10 @@ Read or watch:
 | **[0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)**                            | Args/kwargs, serialization, JSON                            |
 | **[0x0D. SQL - Introduction](./0x0D-SQL_introduction)**                                        | MySQL tables and basic queries                              |
 | **[0x0E. SQL - More queries](./0x0E-SQL_more_queries)**                                        | Joins, unions, advanced queries                             |
-| **[0x12. Javascript - Warm Up](./0x12-javascript-warm_up)**                                    | Introduction to NodeJS                                      |
-| **[0x13. Javascript - Objects, Scopes, Closures](./0x13-javascript_objects_scopes_closures)**  | Global and lexical scopes in JS                             |
-| **[0x14. Javascript - Web Scraping](./0x14-javascript-web_scraping)**                          | Using fs, I/O and request library to make API calls in JS   |
+| **[0x12. JavaScript - Warm Up](./0x12-javascript-warm_up)**                                    | Introduction to NodeJS                                      |
+| **[0x13. JavaScript - Objects, Scopes, Closures](./0x13-javascript_objects_scopes_closures)**  | Global and lexical scopes in JS                             |
+| **[0x14. JavaScript - Web Scraping](./0x14-javascript-web_scraping)**                          | Using fs, I/O and request library to make API calls in JS   |
+| **[0x15. JavaScript - Web JQuery](./0x15-javascript-web_jquery)**                              | DOM manipulation with JQuery and AJAX                       |
 ---
 	
 ## Credits
