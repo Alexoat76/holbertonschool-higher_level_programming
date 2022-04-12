@@ -36,25 +36,37 @@ Thank you for visiting this repository which contain my programming projects wri
 	
 ## About
 The projects in this repository cover:
-- Commenting code and following a coding style standard.
+- Commenting code and following a coding style standard.	
+	* [![c-betty-style](https://img.shields.io/badge/code%20style-Betty-darkred.svg)](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl)
+	* [![py-Pycode-style](https://img.shields.io/badge/code%20style-Pycodestyle-blue.svg)](https://pypi.org/project/pycodestyle/)
+	* [![js-semistandard-style](https://img.shields.io/badge/code%20style-Semistandard-brightgreen.svg)](https://github.com/standard/semistandard)	
 - Variables, data structures, operators, expressions, loops, nested loops.
 - Conditional statements.
 - Functions.
 
-	
-## Requirements 
-
-### Resources
-
-**Read or watch** :
+## Resources :books:
+Read or watch:
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=programing+in+python&hl=es&ei=bUHBYY7XBrCNwbkP15C0qAk&oq=programing+in+py&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQhBdYjxxg4C1oAnACeACAAbUBiAGsApIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz)
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=programing+python)
 
-	
-## General :page_with_curl:
+## Requirements 
+### General :page_with_curl:
 <div style="text-align: justify">
+
+### JS Scripts: :pushpin:	
+	
+- Allowed editors: `vi`, `vim`, `emacs` 
+- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/node` 
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- The code should be **`semistandard`** compliant (version 16.x.x). **[Rules of Standard](https://intranet.hbtn.io/rltoken/EK3q1S4Ouo08kTMI42cSig)** + **[semicolons on top](https://intranet.hbtn.io/rltoken/FuXjfOYe18hUXCDoyMxBSg)**. 
+- Also as reference: **[AirBnB style](https://intranet.hbtn.io/rltoken/iIDdBVB4HNhPpb_5e5L-Qg)**
+- All files must be executable
+- The length of files will be tested using `wc`
+- Not allowed to use `var`	
 	
 ### Python Scripts: :pushpin:
 		
@@ -67,16 +79,7 @@ The projects in this repository cover:
 - The code should use the pycodestyle (version 2.7).
 - All files must be executable.
 - The length of your files will be tested using `wc`.
-	
-### Shell Scripts: :pushpin:
-	
-- Allowed editors: `vi`, `vim`, `emacs`.	
-- All files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
-- All scripts should be exactly two lines long (`wc -l` file should print 2)
-- All files should end with a new line.
-- The first line of all your files should be exactly `#!/bin/bash`.
-- All files must be executable.
-	
+
 ### C Scripts: :pushpin:
 		
 - Allowed editors: `vi`, `vim`, `emacs`.
@@ -91,6 +94,17 @@ The projects in this repository cover:
 - The prototypes of all your functions should be included in your header file called `lists.h`.
 - All header files should be include guarded.
 
+### Shell Scripts: :pushpin:
+	
+- Allowed editors: `vi`, `vim`, `emacs`.	
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
+- All scripts should be exactly two lines long (`wc -l` file should print 2)
+- All files should end with a new line.
+- The first line of all your files should be exactly `#!/bin/bash`.
+- All files must be executable.
+		
+	
+---
 	
 ## Projects 
 
@@ -112,8 +126,8 @@ The projects in this repository cover:
 | **[0x0D. SQL - Introduction](./0x0D-SQL_introduction)**                                        | MySQL tables and basic queries                              |
 | **[0x0E. SQL - More queries](./0x0E-SQL_more_queries)**                                        | Joins, unions, advanced queries                             |
 | **[0x12. Javascript - Warm Up](./0x12-javascript-warm_up)**                                    | Introduction to NodeJS                                      |
-| **[0x13. Javascript - Objects, Scropes, Closures](./0x13-javascript_objects_scopes_closures)** | Global and lexical scopes in JS                             |
-
+| **[0x13. Javascript - Objects, Scopes, Closures](./0x13-javascript_objects_scopes_closures)**  | Global and lexical scopes in JS                             |
+| **[0x14. Javascript - Web Scraping](./0x14-javascript-web_scraping)**                          | Using fs, I/O and request library to make API calls in JS   |
 ---
 	
 ## Credits
