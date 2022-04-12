@@ -8,15 +8,13 @@
 
 ---
 
-# 0x14. JavaScript - Web scraping
+# 0x15. JavaScript - Web jQuery
 
-This project contains some tasks for learning how to use  *`file I/O`*  on  **`Node.js`**  and using the  **NPM**  request
-framework to interact with the  **[Star Wars](https://swapi.co/)**,  **[JSONplaceholder](https://jsonplaceholder.typicode.com)**,  and
-**[Twitter](https://developer.twitter.com/en/docs/api-reference-index)** API's in *`JavaScript`*.
+This project contains some tasks for learning how to *`manipulate`* the *`DOM`* with **`jQuery`**.
 
 <p align="center">
-  <img width="500"  
-        src="https://soyhorizonte.com/wp-content/uploads/2020/10/JS-by-SoyHorizonte.gif"
+  <img width="400"  
+        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f57f6625860387.5634bde766c04.gif"
   >
 </p>
 
@@ -33,55 +31,53 @@ framework to interact with the  **[Star Wars](https://swapi.co/)**,  **[JSONplac
 
 ## About
 	
-The project shows how to use *`Javascript`* and the request module to `read` url text content and gather data from `API's`.
+The project contains some tasks for learning how to use `jQuery` in *`JavaScript`* to manipulate the *`DOM`*.
 
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=JavaScript+Web+scraping&bih=682&biw=1274&hl=en&ei=O0tUYpa3IOLrxgHa66mIBA&ved=0ahUKEwjWwNTHq4z3AhXitTEKHdp1CkEQ4dUDCA4&uact=5&oq=JavaScript+Web+scraping&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoGCAAQBxAeSgQIQRgASgQIRhgAUNgGWPgKYJIeaAFwAXgAgAGEAYgB4AKSAQMwLjOYAQCgAQHIAQjAAQE&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=Web+jQuery&oq=Web+jQuery&aqs=chrome..69i57j0i22i30l9.2503j0j15&sourceid=chrome&ie=UTF-8)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=JavaScript+Web+scraping)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=Web+jQuery)
 
-- [Working with JSON data](https://intranet.hbtn.io/rltoken/RmDpb2gJfPrMar05QdxYvw) 
-- [The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://intranet.hbtn.io/rltoken/ibqGcS_YNbtWO8nPIlM2Ug) 
-- [request module](https://intranet.hbtn.io/rltoken/9L4UYvlIwDVDoObD7zpJZQ) 
-- [Modern JS](https://intranet.hbtn.io/rltoken/Zf5LCjoTEuIXWWxoH_dGVQ)  
+- [What is JavaScript?](https://intranet.hbtn.io/rltoken/FBd59d6M-Bal5PiSJbhw9g) 
+- [Selector](https://intranet.hbtn.io/rltoken/RtFB5Ycdvvk5OYv79zgr6A) 
+- [Get and set content](https://intranet.hbtn.io/rltoken/JAC2vdSj1pbH6y_9OwQrAw) 
+- [Manipulate CSS classes](https://intranet.hbtn.io/rltoken/Pvl_U4kdmxtHrZAHoFh_qw) 
+- [Manipulate DOM elements](https://intranet.hbtn.io/rltoken/fA1R3S7dNUX4lj68z6qMyw) 
+- [API](https://intranet.hbtn.io/rltoken/w_Y67Y3UlGQ6nluZx9KJyQ) 
+- [Introduction](https://intranet.hbtn.io/rltoken/LOMQvsml-4ttg2Y2TVNbqQ) 
+- [GET & POST request](https://intranet.hbtn.io/rltoken/xN81Z76ZeNgB42tyJOgXjA) 
+- [JQuery Ajax Tutorial #1 - Using AJAX & API’s](https://intranet.hbtn.io/rltoken/Rq2Ob5rhN-N458YBxxaRXQ) 
+- [What went wrong? Troubleshooting JavaScript](https://intranet.hbtn.io/rltoken/ZpjZXl5AxHmurQFuxQfB4A) 
+- [JQuery](https://intranet.hbtn.io/rltoken/L5nA7F44DBhrCAdlEvxrqQ) 
+- [JQuery API](https://intranet.hbtn.io/rltoken/U3XGm3WaMxON5c-NkBFS6Q) 
+- [JQuery Ajax](https://intranet.hbtn.io/rltoken/pZmSwUxd65dxIrX7D4n1pg)  
  
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
 
 ## Requirements
 ### General
 - Allowed editors: `vi`, `vim`, `emacs` 
-- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
-- All your files should end with a new line
-- The first line of all your files should be exactly `#!/usr/bin/node` 
+- All files will be interpreted on **Chrome** *`(version 57.0)`*
+- All files should end with a new line 
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- The code should be **`semistandard`** compliant (version 16.x.x). **[Rules of Standard](https://intranet.hbtn.io/rltoken/EK3q1S4Ouo08kTMI42cSig)** + **[semicolons on top](https://intranet.hbtn.io/rltoken/FuXjfOYe18hUXCDoyMxBSg)**. 
-- Also as reference: **[AirBnB style](https://intranet.hbtn.io/rltoken/iIDdBVB4HNhPpb_5e5L-Qg)**
-- All files must be executable
-- The length of files will be tested using `wc`
+- The code should be **`semistandard`** compliant with the flag *`--global $` : `semistandard *.js --global $`*. 
+- Use *`jQuery`* version 3.x
 - Not allowed to use `var`
+- *`HTML`* should not reload for each action: *`DOM`* **manipulation**, `update values`, `fetch data…`
 
 ## More Info
-### Install Node 14
- `$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs`
-### Install semi-standard
-**[Documentation](https://intranet.hbtn.io/rltoken/FuXjfOYe18hUXCDoyMxBSg)**
-
- `$ sudo npm install semistandard --global` 
-
-### Install request module and use it
-**[Documentation](https://intranet.hbtn.io/rltoken/9L4UYvlIwDVDoObD7zpJZQ)** 
-
- ` $ sudo npm install request --global `
-	
- ` $ export NODE_PATH=/usr/lib/node_modules`	
-	
+### Import JQuery
+```
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+```	
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-higher_level_programming.git`	
-- Access to directory: `cd 0x14-javascript-web_scraping`
+- Access to directory: `cd 0x15-javascript-web_jquery`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
@@ -93,240 +89,543 @@ $ sudo apt-get install -y nodejs`
 
 ## Tasks
 	
-+ [x] 0\. **Readme**
++ [x] 0\. **No JQuery**
 
-+ **[0-readme.js](./0-readme.js)**
++ **[0-script.js](./0-script.js)**
 
-* Write a script that reads and prints the content of a file.
-	* The first argument is the file path
-	* The content of the file must be read in `utf-8` 
-	* If an error occurred during the reading, print the error object
+* Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+	* Use `document.querySelector` to select the HTML tag
+	* Don’t use the `JQuery API`
+
+* Please test with this HTML file in your browser:
 
 ```bash
-$ ./0-readme.js cisfun
-C is super fun!
-
-$ ./0-readme.js doesntexist
-{ Error: ENOENT: no such file or directory, open 'doesntexist'
-    at Error (native)
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: 'doesntexist' }
+$ cat 0-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="0-script.js"></script>
+  </body>
+</html>
 $ 
 ```
 ---
 
-+ [x] 1\. **Write me**
++ [x] 1\. **With JQuery**
 
-+ **[1-writeme.js](./1-writeme.js)**
++ **[1-script.js](./1-script.js)**
 
-* Write a script that writes a string to a file.
-	* The first argument is the file path
-	* The second argument is the string to write
-	* The content of the file must be written in `utf-8` 
-	* If an error occurred during while writing, print the error object
+* Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
 
 ```bash
-$ ./1-writeme.js my_file.txt "Python is cool"
-$ cat my_file.txt ; echo ""
-Python is cool
+$ cat 1-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="1-script.js"></script>
+  </body>
+</html>
 $ 
 ```
 ---
 
-+ [x] 2\. **Status code**
++ [x] 2\. **Click and turn red**
 
-+ **[2-statuscode.js](./2-statuscode.js)**
++ **[2-script.js](./2-script.js)**
 
-* Write a script that display the status code of a `GET` request.
-	* The first argument is the URL to request (`GET`)
-	* The status code must be printed like this: `code: <status code>` 
-	* Use the module `request`
- 
+* Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`) 
+	when the user clicks on the tag `DIV#red_header`:
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
+
 ```bash
-$ ./2-statuscode.js https://intranet.hbtn.io/status
-code: 200
-$ ./2-statuscode.js https://intranet.hbtn.io/doesnt_exist
-code: 404
+$ cat 2-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <div id="red_header">Red header</div>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="2-script.js"></script>
+  </body>
+</html>
 $ 
 ```
 ---
 
-+ [x] 3\. **Star wars movie title**
++ [x] 3\. **Add `.red` class**
 
-+ **[3-starwars_title.js](./3-starwars_title.js)**
++ **[3-script.js](./3-script.js)**
 
-* Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
-	* The first argument is the movie ID
-	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
- 	with the endpoint `https://swapi-api.hbtn.io/api/films/:id` 
-	* Use the module `request`
+* Write a JavaScript script that adds the class `red` to the `<header>` element 
+	when the user clicks on the tag `DIV#red_header` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
 
 ```bash
-$ ./3-starwars_title.js 1
-A New Hope
-$ ./3-starwars_title.js 5
-Attack of the Clones
+$ cat 3-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <style>
+      .red {
+        color: #FF0000;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <div id="red_header">Red header</div>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="3-script.js"></script>
+  </body>
+</html>
 $ 
-```
----
-
-+ [x] 4\. **Star wars Wedge Antilles**
-
-+ **[4-starwars_count.js](./4-starwars_count.js)**
-
-* Write a script that prints the number of movies where the character “Wedge Antilles” is present.
-	* The first argument is the API URL of the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
-	:  ` https://swapi-api.hbtn.io/api/films/ ` 
-	* Wedge Antilles is character ID `18` - your script must use this ID for filtering the result of the API
-	* Use the module `request`
-```bash
-$ ./4-starwars_count.js https://swapi-api.hbtn.io/api/films
-3
-$ 
-```
----
-
-+ [x] 5\. **Loripsum**
-
-+ **[5-request_store.js](./5-request_store.js)**
-
-* Write a script that gets the contents of a webpage and stores it in a file.
-	* The first argument is the URL to request
-	* The second argument the file path to store the body response
-	* The file must be UTF-8 encoded
-	* Use the module `request`
-
-```bash
-
-$ ./5-request_store.js http://loripsum.net/api loripsum
-$ cat loripsum
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Haec quo modo conveniant, non sane 
-intellego. Nam memini etiam quae nolo, oblivisci non possum quae volo. Te enim iudicem aequum puto, 
-modo quae dicat ille bene noris. Terram, mihi crede, ea lanx et maria deprimet. Deinde prima 
-illa, quae in congressu solemus: Quid tu, inquit, huc? Hoc etsi multimodis reprehendi potest, 
-tamen accipio, quod dant. </p>
-
-<p>Ad eos igitur converte te, quaeso. Pudebit te, inquam, illius tabulae, quam Cleanthes sane 
-commode verbis depingere solebat. Sic enim censent, oportunitatis esse beate vivere. Quo studio 
-Aristophanem putamus aetatem in litteris duxisse? Aeque enim contingit omnibus fidibus, ut 
-incontentae sint. Ut aliquid scire se gaudeant? Qui enim existimabit posse se miserum esse 
-beatus non erit. Putabam equidem satis, inquit, me dixisse. </p>
-
-<p>Duo Reges: constructio interrete. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, 
-quid diceret? Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Illud non continuo, 
-ut aeque incontentae. Illa videamus, quae a te de amicitia dicta sunt. At ille pellit, qui permulcet 
-sensum voluptate. Tamen aberramus a proposito, et, ne longius, prorsus, inquam, Piso, si ista mala 
-sunt, placet. </p>
-
-<p>Non enim, si omnia non sequebatur, idcirco non erat ortus illinc. Nos cum te, M. Quem si tenueris, 
-non modo meum Ciceronem, sed etiam me ipsum abducas licebit. Apparet statim, quae sint officia, quae 
-actiones. Ergo instituto veterum, quo etiam Stoici utuntur, hinc capiamus exordium. Eadem nunc mea 
-adversum te oratio est. Quid, si etiam iucunda memoria est praeteritorum malorum? Hoc enim constituto 
-in philosophia constituta sunt omnia. </p>
-$ 
-```
----
-
-+ [x] 6\. **How many completed?**
-
-+ **[6-completed_tasks.js](./6-completed_tasks.js)**
-
-* Write a script that computes the number of tasks completed by user id.
-	* The first argument is the API URL: `https://jsonplaceholder.typicode.com/todos` 
-	* Only print users with completed task
-	* Use the module `request`
- 
-```bash
-$ ./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos
-{ '1': 11,
-  '2': 8,
-  '3': 7,
-  '4': 6,
-  '5': 12,
-  '6': 6,
-  '7': 9,
-  '8': 11,
-  '9': 8,
-  '10': 12 }
-$
 ```
 ---
  
-+ [x] 7\. **Who was playing in this movie?**
++ [x] 4\. **Toggle classes**
 
-+ **[100-starwars_characters.js](./100-starwars_characters.js)**
++ **[4-script.js](./4-script.js)**
 
-* Write a script that prints all characters of a Star Wars movie:
-	* The first argument is the Movie ID - example: `3` = “Return of the Jedi” 
-	* Display one character name by line
-	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
-	* Use the module `request`
+* Write a JavaScript script that toggles the class of the `<header>` element 
+	when the user clicks on the tag `DIV#toggle_header`:
+	* The `<header>` element must always have one class: `red` or `green`, 
+	never both in the same time and never empty.
+	* If the current class is `red`, when the user click on `DIV#toggle_header`, 
+	the class must be updated to `green`; and the reverse.
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
 
 ```bash
-$ ./100-starwars_characters.js 3
-Darth Vader
-R2-D2
-Luke Skywalker
-Han Solo
-Leia Organa
-Chewbacca
-Palpatine
-Obi-Wan Kenobi
-Jabba Desilijic Tiure
-Wedge Antilles
-Yoda
-Boba Fett
-Ackbar
-Arvel Crynyd
-Mon Mothma
-Nien Nunb
-Wicket Systri Warrick
-Bib Fortuna
-C-3PO
-Lando Calrissian
-guillaume@ubuntu:~/0x14$ 
+$ cat 4-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <style>
+      .red {
+        color: #FF0000;
+      }
+      .green {
+        color: #00FF00;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="green"> 
+      First HTML page
+    </header>
+    <div id="toggle_header">Toggle header</div>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="4-script.js"></script>
+  </body>
+</html>
+$ 
+```
+---
+ 
++ [x] 5\. **List of elements**
+
++ **[5-script.js](./5-script.js)**
+
+* Write a JavaScript script that adds a `<li>` element to a list when the user 
+	clicks on the tag `DIV#add_item`:
+	* The new element must be: `<li>Item</li>` 
+	* The new element must be added to `UL.my_list` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 5-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <br />
+    <div id="add_item">Add item</div>
+    <br />
+    <ul class="my_list">
+      <li>Item</li>
+    </ul>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="5-script.js"></script>
+  </body>
+</html>
+$ 
 ```
 ---
 
-+ [x] 8\. **Right order**
++ [x] 6\. **Change the text**
 
-+ **[101-starwars_characters.js](./101-starwars_characters.js)**
++ **[6-script.js](./6-script.js)**
 
-* Write a script that prints all characters of a Star Wars movie:
-	* The first argument is the Movie ID - example: `3` = “Return of the Jedi” 
-	* Display one character name by line in the same order of the list “characters” in the `/films/` response
-	* Use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q) 
-	* Use the module `request`
+* Write a JavaScript script that updates the text of the `<header>` element to 
+	`New Header!!!` when the user clicks on `DIV#update_header` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
 
 ```bash
-
-$ ./101-starwars_characters.js 3
-Luke Skywalker
-C-3PO
-R2-D2
-Darth Vader
-Leia Organa
-Obi-Wan Kenobi
-Chewbacca
-Han Solo
-Jabba Desilijic Tiure
-Wedge Antilles
-Yoda
-Palpatine
-Boba Fett
-Lando Calrissian
-Ackbar
-Mon Mothma
-Arvel Crynyd
-Wicket Systri Warrick
-Nien Nunb
-Bib Fortuna
+$ cat 6-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <br />
+    <div id="update_header">Update the header</div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="6-script.js"></script>
+  </body>
+</html>
 $ 
+```
+---
 
-```	
++ [x] 7\. **Star wars character**
+
++ **[7-script.js](./7-script.js)**
+
+* Write a JavaScript script that fetches the character `name` from 
+	this URL: `https://swapi-api.hbtn.io/api/people/5/?format=json` 
+	* The name must be displayed in the HTML tag `DIV#character` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 7-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      Star Wars character
+    </header>
+    <br />
+    <div id="character"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="7-script.js"></script>
+  </body>
+</html>
+$ 
+```
+---
+
++ [x] 8\. **Star Wars movies**
+
++ **[8-script.js](./8-script.js)**
+
+* Write a JavaScript script that fetches and lists the `title` for all movies by using this URL: 
 	
+	`https://swapi-api.hbtn.io/api/films/?format=json` 
+	
+	* All movie titles must be list in the HTML tag `UL#list_movies` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 8-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      Star Wars movies
+    </header>
+    <br />
+    <ul id="list_movies">
+    </ul>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="8-script.js"></script>
+  </body>
+</html>
+$ 
+```
+---
+ 
++ [x] 9\. **Say Hello!**
+
++ **[9-script.js](./9-script.js)**
+
+* Write a JavaScript script that fetches from `https://fourtonfish.com/hellosalut/?lang=fr` 
+	and displays the value of `hello` from that fetch in the HTML tag `DIV#hello`.
+	* The translation of “hello” must be displayed in the HTML tag `DIV#hello` 
+		* Don’t use `document.querySelector` to select the HTML tag
+		* Use the `JQuery API`
+		* The script must work when it is imported from the `<head>` tag
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 9-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="9-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      Say Hello!
+    </header>
+    <br />
+    <div id="hello"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+$ 
+```
+---
+
++ [x] 10\. **No jQuery - document loaded**
+
++ **[100-script.js](./100-script.js)**
+
+* Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+	* Use `document.querySelector` to select the HTML tag
+	* Don’t use the `jQuery API`
+	* Note: The script must be imported from the `<head>` tag, not at the end of the HTML
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 100-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script type="text/javascript" src="100-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+$ 
+```
+---
+ 
++ [x] 11\. **List, add, remove**
+
++ **[101-script.js](./101-script.js)**
+
+* Write a JavaScript script that adds, removes and clears `LI` elements from a list when the user clicks:
+	
+	* The new element must be: `<li>Item</li>` 
+	* The new element must be added to `UL.my_list` 
+	* When the user clicks on `DIV#add_item`: a new element is added to the list
+	* When the user clicks on `DIV#remove_item`: the last element is removed from the list
+	* When the user clicks on `DIV#clear_list`: all elements of the list are removed
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+	* The script must work when it imported from the `HEAD` tag
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 101-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="101-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <br />
+    <div id="add_item">Add item</div>
+    <div id="remove_item">Remove item</div>
+    <div id="clear_list">Clear list</div>
+    <br />
+    <ul class="my_list">
+      <li>Item</li>
+    </ul>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+$ 
+```
+---
+ 
++ [x] 12\. **Say hello to everybody!**
+
++ **[102-script.js](./102-script.js)**
+
+* Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
+	* Use this API service: `https://www.fourtonfish.com/hellosalut/hello/` 
+	* The language code will be the value entered in the tag `INPUT#language_code` (ex:`es`,`fr`,`en` etc.)
+	* The translation must be fetched when the user clicks on `INPUT#btn_translate` 
+	* The translation of “Hello” must be displayed in the HTML tag `DIV#hello` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+	* The script must work when imported from the `<head>` tag
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 102-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="102-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      Say Hello
+    </header>
+    <br />
+    <input id="language_code" type="text" placeholder="Language code"/>
+    <input id="btn_translate" type="button" value="Translate"/>
+    <br />
+    <div id="hello"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+$ 
+```
+---
+
++ [x] 13\. **And press ENTER**
+
++ **[103-script.js](./103-script.js)**
+
+* Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
+	* You should use this API service: `https://www.fourtonfish.com/hellosalut/hello/` 
+	* The language code will be the value entered in the tag `INPUT#language_code` (ex:`es`, `fr`, `en` etc.)
+	* The translation must be fetched when the user clicks on `INPUT#btn_translate` 
+	OR presses `ENTER` when the focus is on `INPUT#language_code` 
+	* The translation of “Hello” must be displayed in the HTML tag `DIV#hello` 
+	* Don’t use `document.querySelector` to select the HTML tag
+	* Use the `JQuery API`
+	* The script must work when imported from the `<head>` tag
+
+* Please test with this HTML file in your browser:
+
+```bash
+$ cat 103-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="103-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      Say Hello
+    </header>
+    <br />
+    <input id="language_code" type="text" placeholder="Language code"/>
+    <input id="btn_translate" type="button" value="Translate"/>
+    <br />
+    <div id="hello"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+$ 
+```	
 ---
 
 ## Credits
