@@ -76,7 +76,7 @@ Read or watch:
 - The first line of all your files should be exactly `#!/usr/bin/python3`.
 - A `README.md` file at the root of the repo, containing a description of the repository.
 - A `README.md` file, at the root of the folder of this project, is mandatory.
-- The code should use the pycodestyle (version 2.7).
+- The code should use the **`pycodestyle`** (version 2.7).
 - All files must be executable.
 - The length of your files will be tested using `wc`.
 
