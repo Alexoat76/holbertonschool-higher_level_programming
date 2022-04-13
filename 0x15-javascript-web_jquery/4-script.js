@@ -1,8 +1,6 @@
-#!/usr/bin/node
 /** File:  4-script.js
 *   Author: Alex Orland Arévalo Tribaldos
 *   email: <3915@holbertonschool.com> */
-
 $(() => {
   $('DIV#toggle_header').click(() => {
     if ($('header').hasClass('red')) {
