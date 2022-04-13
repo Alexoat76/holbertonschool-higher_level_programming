@@ -7,7 +7,6 @@
 </p>
 
 ---
-
 # 0x15. JavaScript - Web jQuery
 
 This project contains some tasks for learning how to *`manipulate`* the *`DOM`* with **`jQuery`**.
