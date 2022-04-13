@@ -325,8 +325,7 @@ Nien Nunb
 Bib Fortuna
 $ 
 
-```	
-	
+```		
 ---
 
 ## Credits
