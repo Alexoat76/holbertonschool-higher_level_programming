@@ -15,8 +15,8 @@ This project contains some tasks for continue learning about how object-relation
 <div style="text-align: justify">
 
 <p align="center">
-  <img width="250"  
-        src="https://cdn.hackersandslackers.com/2019/07/sqlalchemy-relationships.jpg"
+  <img width="400"  
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--SJ7oLQP---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://storage.googleapis.com/hackersandslackers-cdn/2019/07/sqlalchemy-relationships.jpg"
   >
 	
 [![sqlstyle.guide](https://img.shields.io/badge/style-sqlstyle.guide-purple.svg)](https://www.sqlstyle.guide/)
@@ -48,7 +48,19 @@ Read or watch:
 ## Requirements
 ### General
 
-# Tasks
+	
+### Installation :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-higher_level_programming.git`	
+- Access to directory: `cd 0x0F-python-object_relational_mapping`
+
+	
+## Files :file_folder:
+## Tests :heavy_check_mark:
+
++ **[tests](./tests)**: Folder of test files. Provided by Holberton School.
+
+## Tasks
 
 	
 ---
