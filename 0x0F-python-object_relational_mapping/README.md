@@ -10,7 +10,7 @@
 
 # 0x0F. Python - Object-relational mapping
 
-This project contains some tasks for continue learning about how object-relational mapping is used for database scripting, with using MySQLdb and SQLAlchemy to query, create, edit, and delete tables in MySQL.
+This project contains some tasks for continue learning about how *`object-relational mapping`* is used for database scripting, with using *`MySQLdb`* and *`SQLAlchemy`* to `query`, `create`, `edit`, and `delete` tables in *`MySQL`*.
 
 <div style="text-align: justify">
 
@@ -18,9 +18,6 @@ This project contains some tasks for continue learning about how object-relation
   <img width="400"  
         src="https://res.cloudinary.com/practicaldev/image/fetch/s--SJ7oLQP---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://storage.googleapis.com/hackersandslackers-cdn/2019/07/sqlalchemy-relationships.jpg"
   >
-	
-[![sqlstyle.guide](https://img.shields.io/badge/style-sqlstyle.guide-purple.svg)](https://www.sqlstyle.guide/)
-
 </p>
 	
 # Getting Started :running:
@@ -49,6 +46,8 @@ Read or watch:
 ## Requirements
 ### General
 
+	
+[![sqlstyle.guide](https://img.shields.io/badge/style-sqlstyle.guide-purple.svg)](https://www.sqlstyle.guide/)
 	
 ### Installation :computer:
 	
