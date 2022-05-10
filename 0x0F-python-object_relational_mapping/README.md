@@ -21,7 +21,8 @@ This project contains some tasks for continue learning about how object-relation
 	
 [![sqlstyle.guide](https://img.shields.io/badge/style-sqlstyle.guide-purple.svg)](https://www.sqlstyle.guide/)
 
-</p>	
+</p>
+	
 # Getting Started :running:
 <div style="text-align: justify">
 
