@@ -212,6 +212,7 @@ $ ./0-select_states.py root root hbtn_0e_0_usa
 $ 
 ```
 No test cases needed
+	
 ---
  
 + [x] 1\. **Filter states**
@@ -247,6 +248,7 @@ $ ./1-filter_states.py root root hbtn_0e_0_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 2\. **Filter states by user input**
@@ -283,6 +285,7 @@ $ ./2-my_filter_states.py root root hbtn_0e_0_usa 'Arizona'
 $ 
 ```
 No test cases needed
+	
 ---
  
 + [x] 3\. **SQL Injection...**
@@ -332,6 +335,7 @@ $ ./3-my_safe_filter_states.py root root hbtn_0e_0_usa 'Arizona'
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 4\. **Cities by states**
@@ -394,6 +398,7 @@ $ ./4-cities_by_state.py root root hbtn_0e_4_usa
 $ 
 ```
 No test cases needed
+	
 ---
  
 + [x] 5\. **All cities by state**
@@ -448,6 +453,7 @@ $ ./5-filter_cities.py root root hbtn_0e_4_usa Hawaii
 $  
 ```
 No test cases needed
+	
 ---
 
 + [x] 6\. **First state model**
@@ -502,6 +508,7 @@ $
 
 ```
 No test cases needed
+	
 ---
 
 + [x] 7\. **All states via SQLAlchemy**
@@ -534,6 +541,7 @@ $ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 8\. **First state**
@@ -558,6 +566,7 @@ $ ./8-model_state_fetch_first.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 9\. **Contains `a` **
@@ -583,6 +592,7 @@ $ ./9-model_state_filter_a.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 10\. **Get a state**
@@ -609,6 +619,7 @@ Not found
 $ 
 ```
 No test cases needed
+	
 ---
  
 + [x] 11\. **Add a new state**
@@ -637,6 +648,7 @@ $ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 12\. **Update a state**
@@ -664,6 +676,7 @@ $ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 13\. **Delete states**
@@ -686,6 +699,7 @@ $ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 14\. **Cities in state**
@@ -764,6 +778,7 @@ Nevada: (15) Carson City
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 15\. **City relationship**
@@ -814,6 +829,7 @@ id  name    state_id
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 16\. **List relationship**
@@ -887,6 +903,7 @@ $ ./101-relationship_states_cities_list.py root root hbtn_0e_101_usa
 $ 
 ```
 No test cases needed
+	
 ---
 
 + [x] 17\. **From city**
