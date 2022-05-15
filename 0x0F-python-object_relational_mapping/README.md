@@ -15,7 +15,7 @@ This project contains some tasks for continue learning about how *`object-relati
 <div style="text-align: justify">
 
 <p align="center">
-  <img width="400"  
+  <img width="380"  
         src="https://res.cloudinary.com/practicaldev/image/fetch/s--SJ7oLQP---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://storage.googleapis.com/hackersandslackers-cdn/2019/07/sqlalchemy-relationships.jpg"
   >
 </p>
