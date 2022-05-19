@@ -5,6 +5,7 @@
 
 """
 Sends a request to a URL and prints its response or error code.
+usage: ./3-error_code.py http://0.0.0.0:5000/status_401
 """
 
 import sys
