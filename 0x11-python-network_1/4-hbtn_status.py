@@ -5,6 +5,7 @@
 
 """
 fetch https://intranet.hbtn.io/status; display response
+Usage: ./4-hbtn_status.py | cat -e
 """
 import requests
 
